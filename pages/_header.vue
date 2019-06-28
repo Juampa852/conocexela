@@ -1,4 +1,5 @@
 <template>
+<header>
   <div id="divheaderlogo">
     <a href="https://www.munixela.gob.gt" target="_blank">
       <img
@@ -40,6 +41,7 @@
       </nav>
     </div>
   </div>
+</header>
 </template>
 
 <style>
