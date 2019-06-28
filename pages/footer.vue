@@ -5,58 +5,58 @@
       <!-- Grid row -->
       <div class="row">
         <!-- Grid column -->
-        <div class="col-md-4 mx-auto">
+        <div id="logo-div" class="col-md-4 mx-auto">
           <!-- Content -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
-          <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-            consectetur
-            adipisicing elit.
-          </p>
+          <a href="/">
+            <img id="page-logo" src="/nombre3.png" alt="ConoceXela">
+          </a>
         </div>
         <!-- Grid column -->
         <hr class="clearfix w-100 d-md-none">
         <!-- Grid column -->
-        <div class="col-md-3 mx-auto">
+        <div class="col-md-4 mx-auto">
           <!-- Links -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-          <ul class="list-unstyled">
-            <li>
-              <a href="/">Inicio</a>
-            </li>
-            <li>
-              <!-- TODO -->
-              <a href="/cultura">Cultura</a>
-            </li>
-            <li>
-              <a href="/lugares">Lugares</a>
-            </li>
-            <li>
-              <a href="/comida">Comida</a>
-            </li>
-          </ul>
+          <table id="link-table">
+            <th id="link-table-head" colspan="2">
+              <h5 class="font-weight-bold text-uppercase">Links</h5>
+            </th>
+            <tr class="link-table-row">
+              <td>
+                <!-- TODO -->
+                <a href="/">Inicio</a>
+              </td>
+              <td>
+                <a href="/cultura">Cultura</a>
+              </td>
+            </tr>
+            <tr class="link-table-row">
+              <td>
+                <a href="/lugares">Lugares</a>
+              </td>
+              <td>
+                <a href="/comida">Comida</a>
+              </td>
+            </tr>
+          </table>
         </div>
         <!-- Grid column -->
         <hr class="clearfix w-100 d-md-none">
         <!-- Grid column -->
         <div class="col-md-4 mx-auto">
           <!-- Content -->
-          <nav id="social_div">
+          <nav id="social_nav">
             <a href="http://www.facebook.com" target="_blank">
-              <img class="social_img" src="/social_icons/fb.png">
+              <img class="social_img" src="/social_icons/fb.png" alt="Facebook">
             </a>
             <a href="http://www.twitter.com" target="_blank">
-              <img class="social_img" src="/social_icons/tw.png">
+              <img class="social_img" src="/social_icons/tw.png" alt="Twitter">
             </a>
             <a href="http://www.instagram.com" target="_blank">
-              <img class="social_img" src="/social_icons/ig.png">
+              <img class="social_img" src="/social_icons/ig.png" alt="Instagram">
             </a>
           </nav>
         </div>
-        <!-- Grid column -->
-        <hr class="clearfix w-100 d-md-none">
       </div>
-      <!-- Grid row -->
     </div>
   </footer>
 </template>
@@ -66,6 +66,7 @@
   height: 100%;
   width: 100%;
   background-color: #142572;
+  padding-bottom: 1%;
 }
 .font-small {
   font-size: 0.9rem;
@@ -100,7 +101,28 @@ a {
   height: 12%;
   margin: 1%;
 }
-#social_div {
-  padding-top: 12%;
+#social_nav {
+  padding-top: 3%;
+}
+#page-logo {
+  width: 75%;
+  height: 75%;
+}
+#logo-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#link-table {
+  width: 100%;
+  text-align: center;
+}
+.link-table-row {
+  height: 100%;
+}
+#link-table-head {
+  text-align: center;
+  color: #ffff;
+  /*border:1px solid black;*/
 }
 </style>
