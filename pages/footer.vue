@@ -90,9 +90,6 @@
 .mb-4 {
   color: #ffff;
 }
-p {
-  color: #ffff;
-}
 a {
   color: #ffff !important;
 }
