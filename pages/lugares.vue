@@ -25,13 +25,15 @@
               style="text-shadow: 0px 0px 2px #000"
               fade
               indicators
-              img-width="300"
-              img-height="300"
+              controls
+              img-width=""
+              img-height="300px"
             >
               <b-carousel-slide
                 v-for="imagen in lugar.imagenes"
                 :key="imagen"
                 :img-src="imagen"
+                class="imagen"
               />
             </b-carousel>
           </div>
@@ -48,13 +50,15 @@
               style="text-shadow: 0px 0px 2px #000"
               fade
               indicators
-              img-width="300"
-              img-height="300"
+              controls
+              img-width=""
+              img-height="300px"
             >
               <b-carousel-slide
                 v-for="imagen in lugar.imagenes"
                 :key="imagen"
                 :img-src="imagen"
+                class="imagen"
               />
             </b-carousel>
           </div>
@@ -71,28 +75,6 @@
         <br><br>
       </div>
     </div>
-    <div class="row">
-      <!-- <b-pagination
-        v-model="paginaActual"
-        Align="fill"
-        :total-rows="rows"
-        :per-page="porPagina"
-        first-text="Primera"
-        prev-text="Anterior"
-        next-text="Siguiente"
-        last-text="Última"
-        aria-controls="mis-lugares"
-        size="lg"
-      /> -->
-      <b-pagination
-        v-model="paginaActual"
-        Align="center"
-        :total-rows="rows"
-        :per-page="porPagina"
-        aria-controls="mis-lugares"
-        size="lg"
-      />
-    </div>
     <br><hr><br>
   </div>
 </template>
@@ -103,18 +85,19 @@ import JSONlugares from './lugares.json'
 export default {
   data() {
     return {
-      porPagina: 5,
-      paginaActual: 1,
       lugares: JSONlugares
-    }
-  },
-  computed: {
-    rows() {
-      return 15
     }
   }
 }
 </script>
 
 <style>
+  b-carousel {
+    height: 300px;
+  }
+
+  .imagen {
+    width: 100%;
+    height: 300px;
+  }
 </style>
