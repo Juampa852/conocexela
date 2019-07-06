@@ -6,7 +6,7 @@
         id="carousel-1"
         class="Field__carousel"
         v-model="slide"
-        :interval="4000"
+        :interval="3000"
         controls
         indicators
         background="#ababab"
@@ -19,102 +19,103 @@
         <b-carousel-slide
           class="Field__slide"
           img-src="/main_images/Slider/_DSC0840.JPG">
-          <h1>Hello world!</h1>
+          <h1>Nuestra gente y sus tradiciones...</h1>
         </b-carousel-slide>
 
         <b-carousel-slide
           class="Field__slide"
           img-src="https://aprende.guatemala.com/wp-content/uploads/2017/08/Xela.jpg">
-          <h1>Hello world 2!</h1>
-        </b-carousel-slide>
-
-         <b-carousel-slide
-          class="Field__slide"
-          img-src="/main_images/Slider/catedral.jpeg">
-          <h1>Hello world!</h1>
+          <h1>¡Arquitectura única!</h1>
         </b-carousel-slide>
 
          <b-carousel-slide
           class="Field__slide"
           img-src="/main_images/Slider/CerroelBaul.jpg">
-          <h1>Hello world!</h1>
+          <h1>¡Paisajes siniguales!</h1>
+        </b-carousel-slide>
+
+         <b-carousel-slide
+          class="Field__slide"
+          img-src="/main_images/Slider/catedral.jpeg">
+          <h1>¡Centro de Fe!</h1>
         </b-carousel-slide>
         <b-carousel-slide
           class="Field__slide"
           img-src="/main_images/Slider/comidas.jpg">
-          <h1>Hello world!</h1>
+          <h1>¡Encántate por las Shecas!</h1>
         </b-carousel-slide>
 
         <b-carousel-slide
           class="Field__slide"
           img-src="/main_images/Slider/dulces.jpg">
-          <h1>Hello world!</h1>
+          <h1>¡Endúlzate la vida con sus dulces!</h1>
         </b-carousel-slide>
         <b-carousel-slide
           class="Field__slide"
           img-src="/main_images/Slider/Eloteslocos.jpg">
-          <h1>Hello world!</h1>
+          <h1>¡Alócate por los elotes!</h1>
         </b-carousel-slide>
 
          <b-carousel-slide
           class="Field__slide"
           img-src="/main_images/Slider/fuentes.jpg">
-          <h1>Hello world!</h1>
+          <h1>¡Relájate con sus aguas termales!</h1>
         </b-carousel-slide>
 
          <b-carousel-slide
           class="Field__slide"
           img-src="/main_images/Slider/Lagunachicabal.jpg">
-          <h1>Hello world!</h1>
+          <h1>¡Vive el misticismo del Volcán-Laguna!</h1>
         </b-carousel-slide>
 
          <b-carousel-slide
           class="Field__slide"
           img-src="/main_images/Slider/parque.jpg">
-          <h1>Hello world!</h1>
+          <h1>¡Llénate de paz en las tardes quetzaltecas!</h1>
         </b-carousel-slide>
 
          <b-carousel-slide
           class="Field__slide"
           img-src="/main_images/Slider/procesion.jpg">
-          <h1>Hello world!</h1>
-        </b-carousel-slide>
-
-          <b-carousel-slide
-          class="Field__slide"
-          img-src="/main_images/Slider/Quetzaltenango.jpg">
-          <h1>Hello world!</h1>
-        </b-carousel-slide>
-
-         <b-carousel-slide
-          class="Field__slide"
-          img-src="/main_images/Slider/Santa.jpg">
-          <h1>Hello world!</h1>
-        </b-carousel-slide>
-
-         <b-carousel-slide
-          class="Field__slide"
-          img-src="/main_images/Slider/siembra.jpg">
-          <h1>Hello world!</h1>
-        </b-carousel-slide>
-
-         <b-carousel-slide
-          class="Field__slide"
-          img-src="/main_images/Slider/teatro.jpg">
-          <h1>Hello world!</h1>
-        </b-carousel-slide>
-
-         <b-carousel-slide
-          class="Field__slide"
-          img-src="/main_images/Slider/volcan2.jpg">
-          <h1>Hello world!</h1>
+          <h1>Encuéntrate de nuevo...</h1>
         </b-carousel-slide>
 
          <b-carousel-slide
           class="Field__slide"
           img-src="/main_images/Slider/volcano.jpg">
-          <h1>Hello world!</h1>
+          <h1>Valles y vistas increíbles...</h1>
         </b-carousel-slide>
+
+          <b-carousel-slide
+          class="Field__slide"
+          img-src="/main_images/Slider/Quetzaltenango.jpg">
+          <h1>Por si te quedas con hambre...</h1>
+        </b-carousel-slide>
+
+         <b-carousel-slide
+          class="Field__slide"
+          img-src="/main_images/Slider/Santa.jpg">
+          <h1>Los vigilantes de Quetzaltenango...</h1>
+        </b-carousel-slide>
+
+         <b-carousel-slide
+          class="Field__slide"
+          img-src="/main_images/Slider/siembra.jpg">
+          <h1>Campos fértiles y bondadosos...</h1>
+        </b-carousel-slide>
+
+         <b-carousel-slide
+          class="Field__slide"
+          img-src="/main_images/Slider/teatro.jpg">
+          <h1>¡La Cuna de la Cultura Hispanoamericana!</h1>
+        </b-carousel-slide>
+
+         <b-carousel-slide
+          class="Field__slide"
+          img-src="/main_images/Slider/volcan2.jpg">
+          <h1>La cima del vigilante dormido eternamente...</h1>
+        </b-carousel-slide>
+
       </b-carousel>
     </div>
     <!--Content-->
@@ -123,135 +124,90 @@
         <figure>
           <img
             class="image"
-            src="https://aprende.guatemala.com/wp-content/uploads/2017/08/Xela.jpg"
+            src="/main_images/Principal/asdf"
             width="300vh"
             height="200vh"
           />
         </figure>
         <p class="paragraph" align="justify">
-          Quetzaltenango, es una ciudad guatemalteca ubicada en el departamento del mismo nombre, también llamada popularmente "Xelajú" o simplemente "Xela" (shela).
+          <strong>Quetzaltenango</strong>, es una ciudad guatemalteca ubicada en el departamento del mismo nombre, también llamada popularmente <strong>"Xelajú"</strong> o simplemente <strong>"Xela"</strong> (shela).
           Así mismo, es la segunda ciudad más importante de Guatemala, a 206 km al noroeste de la Ciudad de Guatemala. La ciudad se encuentra ubicada en un valle montañoso
-          en el altiplano occidental de Guatemala con una altitud media sobre el nivel del mar de 2333 msnm.
+          en el altiplano occidental de Guatemala con una altitud media sobre el nivel del mar de <strong> 2333 msnm</strong>.
         </p>
       </div>
       <div class=Content_Field_right>
         <figure>
           <img
             class="image_right"
-            src="https://aprende.guatemala.com/wp-content/uploads/2017/08/Xela.jpg"
+            src="/main_images/Principal/templo.jpg"
             width="300vh"
             height="200vh"
           />
         </figure>
         <p class="paragraph" align="justify">
-          Quetzaltenango, es una ciudad guatemalteca ubicada en el departamento del mismo nombre, también llamada popularmente "Xelajú" o simplemente "Xela" (shela).
-          Así mismo, es la segunda ciudad más importante de Guatemala, a 206 km al noroeste de la Ciudad de Guatemala. La ciudad se encuentra ubicada en un valle montañoso
-          en el altiplano occidental de Guatemala con una altitud media sobre el nivel del mar de 2333 msnm.
+          Es la cabecera del departamento de Quetzaltenango, que tiene <strong>1953 km²</strong>, equivalentes al 1,8 % del territorio nacional. Quetzaltenango limita al norte con el
+          departamento de Huehuetenango, al este con los departamentos de Totonicapán y Sololá, al sur con los departamentos de Retalhuleu y Suchitepéquez y al oeste
+          con el departamento de San Marcos. Sus principales idiomas son el <strong>castellano, mam y k’iche’</strong>.
         </p>
       </div>
       <div class=Content_Field>
         <figure>
           <img
             class="image"
-            src="https://aprende.guatemala.com/wp-content/uploads/2017/08/Xela.jpg"
+            src="/main_images/Principal/conquista.jpg"
             width="300vh"
             height="200vh"
           />
         </figure>
         <p class="paragraph" align="justify">
-          Quetzaltenango, es una ciudad guatemalteca ubicada en el departamento del mismo nombre, también llamada popularmente "Xelajú" o simplemente "Xela" (shela).
-          Así mismo, es la segunda ciudad más importante de Guatemala, a 206 km al noroeste de la Ciudad de Guatemala. La ciudad se encuentra ubicada en un valle montañoso
-          en el altiplano occidental de Guatemala con una altitud media sobre el nivel del mar de 2333 msnm.
+          Después de librar una dura batalla los españoles en el área sur de Guatemala, se dirigieron río arriba internándose en la Sierra Madre y llegaron hacia el
+          valle fértil de Quetzaltenango, en el centro del reino k'iche'. Los españoles se acercaron a la ciudad de Xelajú. Después de una dura batalla el príncipe
+          quiché <strong>Tecún Umán</strong> murió en la batalla cerca de Olintepeque, al norte de Quetzaltenango. Para entonces el <strong>15 de mayo de 1524</strong> se fundó la ciudad.
         </p>
       </div>
       <div class=Content_Field_right>
         <figure>
           <img
             class="image_right"
-            src="https://aprende.guatemala.com/wp-content/uploads/2017/08/Xela.jpg"
+            src="/main_images/Principal/arco.jpg"
             width="300vh"
             height="200vh"
           />
         </figure>
         <p class="paragraph" align="justify">
-          Quetzaltenango, es una ciudad guatemalteca ubicada en el departamento del mismo nombre, también llamada popularmente "Xelajú" o simplemente "Xela" (shela).
-          Así mismo, es la segunda ciudad más importante de Guatemala, a 206 km al noroeste de la Ciudad de Guatemala. La ciudad se encuentra ubicada en un valle montañoso
-          en el altiplano occidental de Guatemala con una altitud media sobre el nivel del mar de 2333 msnm.
+          El <strong>2 de febrero de 1838</strong>, en la ciudad de Quetzaltenango, un grupo secesionista liberal fundó el independiente <strong>Sexto Estado de Los Altos</strong> el cual pretendió independizarse
+          de Guatemala. Este estado estaba constituido por los modernos departamentos de Quetzaltenango, Huehuetenango, San Marcos, Totonicapán y Sololá y era donde se aglutinaban
+          los más importantes criollos miembros del <strong>Partido Liberal de Guatemala</strong> y los enemigos liberales del régimen conservador.
         </p>
       </div>
       <div class=Content_Field>
         <figure>
           <img
             class="image"
-            src="https://aprende.guatemala.com/wp-content/uploads/2017/08/Xela.jpg"
+            src="/main_images/Principal/xelaju.jpg"
             width="300vh"
             height="200vh"
           />
         </figure>
         <p class="paragraph" align="justify">
-          Quetzaltenango, es una ciudad guatemalteca ubicada en el departamento del mismo nombre, también llamada popularmente "Xelajú" o simplemente "Xela" (shela).
-          Así mismo, es la segunda ciudad más importante de Guatemala, a 206 km al noroeste de la Ciudad de Guatemala. La ciudad se encuentra ubicada en un valle montañoso
-          en el altiplano occidental de Guatemala con una altitud media sobre el nivel del mar de 2333 msnm.
+         Actualmente la ciudad de Quetzaltenango, es <strong>la segunda ciudad en importancia en Guatemala</strong>, destacada por la gran cantidad de escuelas, colegios, centros hospitalarios y universidades,
+         siendo hoy día <strong>centro cultural</strong> del occidente del país. Así mismo en la ciudad hay gran cantidad de escuelas de español, a las que asisten personas de muchos países del mundo, principalmente
+         de México y E.U.A.
         </p>
       </div>
       <div class=Content_Field_right>
         <figure>
           <img
             class="image_right"
-            src="https://aprende.guatemala.com/wp-content/uploads/2017/08/Xela.jpg"
+            src="/main_images/Principal/complejo.jpg"
             width="300vh"
             height="200vh"
           />
         </figure>
         <p class="paragraph" align="justify">
-          Quetzaltenango, es una ciudad guatemalteca ubicada en el departamento del mismo nombre, también llamada popularmente "Xelajú" o simplemente "Xela" (shela).
-          Así mismo, es la segunda ciudad más importante de Guatemala, a 206 km al noroeste de la Ciudad de Guatemala. La ciudad se encuentra ubicada en un valle montañoso
-          en el altiplano occidental de Guatemala con una altitud media sobre el nivel del mar de 2333 msnm.
-        </p>
-      </div>
-      <div class=Content_Field>
-        <figure>
-          <img
-            class="image"
-            src="https://aprende.guatemala.com/wp-content/uploads/2017/08/Xela.jpg"
-            width="300vh"
-            height="200vh"
-          />
-        </figure>
-        <p class="paragraph" align="justify">
-          Quetzaltenango, es una ciudad guatemalteca ubicada en el departamento del mismo nombre, también llamada popularmente "Xelajú" o simplemente "Xela" (shela).
-          Así mismo, es la segunda ciudad más importante de Guatemala, a 206 km al noroeste de la Ciudad de Guatemala. La ciudad se encuentra ubicada en un valle montañoso
-          en el altiplano occidental de Guatemala con una altitud media sobre el nivel del mar de 2333 msnm.
-        </p>
-      </div>
-      <div class=Content_Field_right>
-        <figure>
-          <img
-            class="image_right"
-            src="https://aprende.guatemala.com/wp-content/uploads/2017/08/Xela.jpg"
-            width="300vh"
-            height="200vh"
-          />
-        </figure>
-        <p class="paragraph" align="justify">
-          Quetzaltenango, es una ciudad guatemalteca ubicada en el departamento del mismo nombre, también llamada popularmente "Xelajú" o simplemente "Xela" (shela).
-          Así mismo, es la segunda ciudad más importante de Guatemala, a 206 km al noroeste de la Ciudad de Guatemala. La ciudad se encuentra ubicada en un valle montañoso
-          en el altiplano occidental de Guatemala con una altitud media sobre el nivel del mar de 2333 msnm.
-        </p>
-      </div>
-      <div class=Content_Field>
-        <figure>
-          <img
-            class="image"
-            src="https://aprende.guatemala.com/wp-content/uploads/2017/08/Xela.jpg"
-            width="300vh"
-            height="200vh"
-          />
-        </figure>
-        <p class="paragraph" align="justify">
-          Quetzaltenango, es una ciudad guatemalteca ubicada en el departamento del mismo nombre, también llamada popularmente "Xelajú" o simplemente "Xela" (shela).
-          Así mismo, es la segunda ciudad más importante de Guatemala, a 206 km al noroeste de la Ciudad de Guatemala. La ciudad se encuentra ubicada en un valle montañoso
-          en el altiplano occidental de Guatemala con una altitud media sobre el nivel del mar de 2333 msnm.
+          Se imparten excursiones <strong>ecológicas y turismo de aventura</strong> pero también la ciudad tiene hoy día vida nocturna, concentrada en parte de su centro histórico, en donde se puede degustar
+          de comida y bebida nacional e internacional, en sus diversos restaurantes, bares y centros nocturnos En muchos municipios de este departamento se encuentran tiendas artesanales
+          con una gran diversidad de artículos artesanales.
         </p>
       </div>
     </div>
@@ -278,10 +234,10 @@ export default {
 </script>
 <style>
 .Field .Field__slide{
-  height: 90vh;
+  height: 100vh;
 }
 .Field__carousel {
-  height: 90vh;
+  height: 100vh;
 }
 .Content {
   padding: 7vh;
