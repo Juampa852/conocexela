@@ -28,10 +28,16 @@
           <h1>¡Arquitectura única!</h1>
         </b-carousel-slide>
 
-         <b-carousel-slide
+        <b-carousel-slide
           class="Field__slide"
           img-src="/main_images/Slider/CerroelBaul.jpg">
           <h1>¡Paisajes siniguales!</h1>
+        </b-carousel-slide>
+
+        <b-carousel-slide
+          class="Field__slide"
+          img-src="/main_images/Slider/xela.jpg">
+          <h1>¡Vida Nocturna!</h1>
         </b-carousel-slide>
 
          <b-carousel-slide
@@ -56,31 +62,31 @@
           <h1>¡Alócate por los elotes!</h1>
         </b-carousel-slide>
 
-         <b-carousel-slide
+        <b-carousel-slide
           class="Field__slide"
           img-src="/main_images/Slider/fuentes.jpg">
           <h1>¡Relájate con sus aguas termales!</h1>
         </b-carousel-slide>
 
-         <b-carousel-slide
+        <b-carousel-slide
           class="Field__slide"
           img-src="/main_images/Slider/Lagunachicabal.jpg">
           <h1>¡Vive el misticismo del Volcán-Laguna!</h1>
         </b-carousel-slide>
 
-         <b-carousel-slide
+        <b-carousel-slide
           class="Field__slide"
           img-src="/main_images/Slider/parque.jpg">
           <h1>¡Llénate de paz en las tardes quetzaltecas!</h1>
         </b-carousel-slide>
 
-         <b-carousel-slide
+        <b-carousel-slide
           class="Field__slide"
           img-src="/main_images/Slider/procesion.jpg">
           <h1>Encuéntrate de nuevo...</h1>
         </b-carousel-slide>
 
-         <b-carousel-slide
+        <b-carousel-slide
           class="Field__slide"
           img-src="/main_images/Slider/volcano.jpg">
           <h1>Valles y vistas increíbles...</h1>
@@ -92,25 +98,25 @@
           <h1>Por si te quedas con hambre...</h1>
         </b-carousel-slide>
 
-         <b-carousel-slide
+        <b-carousel-slide
           class="Field__slide"
           img-src="/main_images/Slider/Santa.jpg">
           <h1>Los vigilantes de Quetzaltenango...</h1>
         </b-carousel-slide>
 
-         <b-carousel-slide
+        <b-carousel-slide
           class="Field__slide"
           img-src="/main_images/Slider/siembra.jpg">
           <h1>Campos fértiles y bondadosos...</h1>
         </b-carousel-slide>
 
-         <b-carousel-slide
+        <b-carousel-slide
           class="Field__slide"
           img-src="/main_images/Slider/teatro.jpg">
           <h1>¡La Cuna de la Cultura Hispanoamericana!</h1>
         </b-carousel-slide>
 
-         <b-carousel-slide
+        <b-carousel-slide
           class="Field__slide"
           img-src="/main_images/Slider/volcan2.jpg">
           <h1>La cima del vigilante dormido eternamente...</h1>
@@ -249,9 +255,9 @@
           />
         </figure>
         <p class="paragraph" align="justify">
-         <strong>Juan Jacobo Árbenz Guzmán</strong>, nacido en Quetzaltenango el 14 de septiembre de 1913, reconocido como <strong>"el soldado del pueblo"</strong> fue un militar y político guatemalteco, ministro de la Defensa Nacional y presidente de Guatemala (1951-1954). Perteneció
-         al grupo de militares que protagonizaron la <strong>Revolución de 1944.</strong> Árbenz basó su gobierno en objetivos fundamentales sobresaliendo el convertir a Guatemala en un país económicamente independiente y en un país moderno
-         y capitalista. El 27 de junio de 1954 fue <strong>derrocado</strong> por un golpe de Estado dirigido por el Gobierno de Estados Unidos, con el patrocinio de la UFC y ejecutado por la CIA.
+         <strong>Juan Jacobo Árbenz Guzmán</strong>, nacido en Quetzaltenango el 14 de septiembre de 1913, ministro de la Defensa Nacional y presidente de Guatemala (1951-1954). Perteneció
+         al grupo de militares que protagonizaron la <strong>Revolución de 1944.</strong> Árbenz basó su gobierno en convertir a Guatemala en un país económicamente independiente y en un país moderno
+         y capitalista. El 27 de junio de 1954 fue <strong>derrocado</strong> por un golpe de Estado dirigido por el Gobierno de Estados Unidos, la UFC y ejecutado por la CIA.
         </p>
       </div>
       <div class=Content_Field_right data-aos="flip-right" data-aos-duration="4000000">
@@ -308,10 +314,10 @@ export default {
 </script>
 <style>
 .Field .Field__slide{
-  height: 100vh;
+  height: 85vh;
 }
 .Field__carousel {
-  height: 100vh;
+  height: 85vh;
 }
 .Content {
   padding: 7vh;
