@@ -22,7 +22,7 @@
             <h6 class="font-small-cx mb-4 footer-text">conoce.xela19@gmail.com</h6>
             <h6 class="font-small-sub-cx mb-4 footer-text">Teléfono: </h6>
             <h6 class="font-small-cx mb-4 footer-text">+502 4196-6767</h6>
-            <h6 class="font-small2-cx mb-4 footer-text">Hecho con <span style="color: #e25555;">&hearts;</span> en Xela, por el DevTeam</h6>
+            <h6 class="font-small2-cx mb-4 footer-text">Hecho con <span style="color: #e25555;">&hearts;</span> en Xela, por DevTeam</h6>
           </div>
         </div>
         <!-- Grid column -->
