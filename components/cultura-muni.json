@@ -1,0 +1,89 @@
+{
+    "name":"a",
+    "municipios":[
+        {
+            "index":1,
+            "nombre":"Salcaja",
+            "tradiciones":[
+                {
+                    "index":1,
+                    "video":true,
+                    "nombre":"Fiesta Patronal: San Luis Rey de Francia",
+                    "contenido":[
+                            "La fiesta patronal del municipio de Salcajá se celebra el 25 de agosto entre diversas costumbres y tradiciones y también con actividades populares y religiosas."
+                            ,"La celebración de la fiesta patronal del municipio de Salcajá da inicio con la elección e investidura de distintas reinas de belleza, entre ellas la madrina de los empleados, la señorita Salcajá y la señorita casa de la cultura.",
+                            "Al finalizar este evento se realiza un baile social en honor a las reinas electas."
+                        ],
+                        
+                    "media": "https://www.youtube.com/embed/LiK_1Tg3yuo?ecver=1&amp;iv_load_policy=3&amp;rel=0&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red&amp;width=560&amp;width=560"
+                    },
+                {
+                    "index":2,
+                    "nombre":"Recorrido de los diablos",
+                    "video":false,
+                    "contenido": ["Cada 7 de diciembre los vecinos de Salcajá, Quetzaltenango, realizan el Recorrido de los Diablos en Salcajá. En esta actividad todos los participantes muestran sus creatividad al pintar su cuerpo. En esta tradición, los residentes del municipio y pueblos aledaños se pintan el cuerpo con pintura para madera, mezclada con aceite. Con esto, los pobladores escenifican la figura del diablo y recorren las principales calles del lugar.",
+                        "Durante su recorrido, los pobladores retan a los diablos y estos deben correr. Según las creencias, esta es la manera adecuada de expulsar el mal del pueblo"],
+                    "media": [
+                        "/imagenes-cultura/diablos1.jpg",
+                        "/imagenes-cultura/diablos2.jpg"
+                    ]
+                },
+                {
+                    "index":3,
+                    "nombre":"Caldo de frutas",
+                    "video":false,
+                    "contenido": ["La bebida es un licor casero cuya fórmula ha sido mejorada y heredada entre sus habitantes, y que se ha convertido en una bebida tradicional que se degusta en ocasiones especiales, como la Navidad. Esta bebida espirituosa se obtiene de la mezcla de diversas frutas, agua, azúcar y aguardiente. ",
+                        "Aunque no saben la fecha precisa, los salcajenses aseguran que sus antepasados aprendieron a elaborar el caldo de frutas durante la época de la Colonia, y creen que esta tradición comenzó en el siglo XVIII.",
+                        "La elaboración del caldo de frutas de Salcajá comienza con la producción del licor claro, que se hace con agua pura, levadura y panela, ingredientes que tienen un cocimiento previo de una hora. Simultáneamente se lavan las frutas y se cortan en trozos. Generalmente usan manzanas, cerezas, membrillo, mamey, durazno, pera, jocote, marañón y moras. También se hace un cocimiento de agua y canela que se coloca en un barril de madera, junto con las frutas, que deben echarse crudas. El reposo o fermentación dura más de nueve meses."
+                    ],
+                    "media": [
+                        "/imagenes-cultura/caldo-fruta2.jpg",
+                        "/imagenes-cultura/caldo-fruta3.jpg"
+                    ]
+                }
+            ]
+        },
+        {
+            "index":2,
+            "nombre":"San Juan Ostuncalco",
+            "tradiciones":[
+                {
+                    "index":1,
+                    "video":true,
+                    "nombre":"Fiesta Patronal: San Luis Rey de Francia",
+                    "contenido":[
+                            "La fiesta patronal del municipio de Salcajá se celebra el 25 de agosto entre diversas costumbres y tradiciones y también con actividades populares y religiosas."
+                            ,"La celebración de la fiesta patronal del municipio de Salcajá da inicio con la elección e investidura de distintas reinas de belleza, entre ellas la madrina de los empleados, la señorita Salcajá y la señorita casa de la cultura.",
+                            "Al finalizar este evento se realiza un baile social en honor a las reinas electas."
+                        ],
+                        
+                    "media": "https://www.youtube.com/embed/LiK_1Tg3yuo?ecver=1&amp;iv_load_policy=3&amp;rel=0&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red&amp;width=560&amp;width=560"
+                    },
+                {
+                    "index":2,
+                    "nombre":"Dia de Diablos",
+                    "video":false,
+                    "contenido": ["Cada 7 de diciembre los vecinos de Salcajá, Quetzaltenango, realizan el Recorrido de los Diablos en Salcajá. En esta actividad todos los participantes muestran sus creatividad al pintar su cuerpo. En esta tradición, los residentes del municipio y pueblos aledaños se pintan el cuerpo con pintura para madera, mezclada con aceite. Con esto, los pobladores escenifican la figura del diablo y recorren las principales calles del lugar.",
+                        "Durante su recorrido, los pobladores retan a los diablos y estos deben correr. Según las creencias, esta es la manera adecuada de expulsar el mal del pueblo"],
+                    "media": [
+                        "/imagenes-cultura/diablos1.jpg",
+                        "/imagenes-cultura/diablos2.jpg"
+                    ]
+                },
+                {
+                    "index":3,
+                    "nombre":"Caldo de frutas",
+                    "video":false,
+                    "contenido": ["La bebida es un licor casero cuya fórmula ha sido mejorada y heredada entre sus habitantes, y que se ha convertido en una bebida tradicional que se degusta en ocasiones especiales, como la Navidad. Esta bebida espirituosa se obtiene de la mezcla de diversas frutas, agua, azúcar y aguardiente. ",
+                        "Aunque no saben la fecha precisa, los salcajenses aseguran que sus antepasados aprendieron a elaborar el caldo de frutas durante la época de la Colonia, y creen que esta tradición comenzó en el siglo XVIII.",
+                        "La elaboración del caldo de frutas de Salcajá comienza con la producción del licor claro, que se hace con agua pura, levadura y panela, ingredientes que tienen un cocimiento previo de una hora. Simultáneamente se lavan las frutas y se cortan en trozos. Generalmente usan manzanas, cerezas, membrillo, mamey, durazno, pera, jocote, marañón y moras. También se hace un cocimiento de agua y canela que se coloca en un barril de madera, junto con las frutas, que deben echarse crudas. El reposo o fermentación dura más de nueve meses."
+                    ],
+                    "media": [
+                        "/imagenes-cultura/caldo-fruta2.jpg",
+                        "/imagenes-cultura/caldo-fruta3.jpg"
+                    ]
+                }
+            ]
+        }
+    ]
+}
