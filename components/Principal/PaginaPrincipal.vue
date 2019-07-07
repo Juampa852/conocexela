@@ -169,6 +169,21 @@
         <figure>
           <img
             class="image_right"
+            src="/main_images/Principal/domingo.jpeg"
+            width="300vh"
+            height="200vh"
+          />
+        </figure>
+        <p class="paragraph" align="justify">
+          <strong>Domingo Bethancourt Mazariegos</strong> nacido en Quetzaltenango el 20 de dicimebre de 1906, fue un marimbista y compositor guatemalteco. Sus obras para marimba se encuentran entre las más
+          <strong>populares de Centro América</strong>, dentro de ella la composición de <strong>Ferrocarril de los Altos</strong>, canción dedicada para el entonces primer ferrocarril de <strong>Centro América</strong>. Ha tenido una notable
+          influencia en el desarrollo del repertorio ligero guatemalteco y de la <strong>identidad regional de Quetzaltenango y de toda la República de Guatemala.</strong>
+        </p>
+      </div>
+      <div class=Content_Field data-aos="flip-right" data-aos-duration="4000000">
+        <figure>
+          <img
+            class="image"
             src="/main_images/Principal/arco.jpg"
             width="300vh"
             height="200vh"
@@ -180,10 +195,39 @@
           los más importantes criollos miembros del <strong>Partido Liberal de Guatemala</strong> y los enemigos liberales del régimen conservador.
         </p>
       </div>
+      <div class=Content_Field_right data-aos="zoom-in-left" data-aos-duration="4000000">
+        <figure>
+          <img
+            class="image_right"
+            src="/main_images/Principal/pacop.jpg"
+            width="300vh"
+            height="200vh"
+          />
+        </figure>
+        <p class="paragraph" align="justify">
+          <strong>Paco Pérez</strong>, huehueteco de nacimiento pero creador del popular vals <strong>Luna de Xelajú</strong>, canción representativa de Quetzaltenango, establecida como el <strong> himno oficial</strong> de
+          la ciudad de Quetzaltenango y el <strong>segundo himno nacional de Guatemala</strong>, con la cual la ciudad se ha dado a conocer a nivel mundial gracias al cover de esta canción por varios artistas de talla mundial.
+        </p>
+      </div>
       <div class=Content_Field data-aos="zoom-in-left" data-aos-duration="4000000">
         <figure>
           <img
             class="image"
+            src="/main_images/Principal/efrain.jpg"
+            width="300vh"
+            height="200vh"
+          />
+        </figure>
+        <p class="paragraph" align="justify">
+          <strong>Efraín Enrique Recinos Valenzuela</strong>, nacido en Quetzaltenango el 15 de mayo de 1928. Fue un ingeniero, urbanista, pintor, escultor, muralista, escenógrafo, inventor  hasta el día de su fallecimiento, con aún
+          proyectos arquitectónicos en desarrollo, una de sus obras más especiales es el conjunto del <strong>Centro Cultural Miguel Ángel Asturias</strong>, encargándose de su diseño y construcción y cabe resaltar que su intención
+          con esta construcción fue apegarse al <strong>paisaje de volcanes y cielo azul</strong> de Guatemala.
+        </p>
+      </div>
+      <div class=Content_Field_right data-aos="zoom-in-left" data-aos-duration="4000000">
+        <figure>
+          <img
+            class="image_right"
             src="/main_images/Principal/xelaju.jpg"
             width="300vh"
             height="200vh"
@@ -193,6 +237,21 @@
          Actualmente la ciudad de Quetzaltenango, es <strong>la segunda ciudad en importancia en Guatemala</strong>, destacada por la gran cantidad de escuelas, colegios, centros hospitalarios y universidades,
          siendo hoy día <strong>centro cultural</strong> del occidente del país. Así mismo en la ciudad hay gran cantidad de escuelas de español, a las que asisten personas de muchos países del mundo, principalmente
          de México y E.U.A.
+        </p>
+      </div>
+      <div class=Content_Field data-aos="zoom-in-left" data-aos-duration="4000000">
+        <figure>
+          <img
+            class="image"
+            src="/main_images/Principal/jacobo.jpg"
+            width="300vh"
+            height="200vh"
+          />
+        </figure>
+        <p class="paragraph" align="justify">
+         <strong>Juan Jacobo Árbenz Guzmán</strong>, nacido en Quetzaltenango el 14 de septiembre de 1913, reconocido como <strong>"el soldado del pueblo"</strong> fue un militar y político guatemalteco, ministro de la Defensa Nacional y presidente de Guatemala (1951-1954). Perteneció
+         al grupo de militares que protagonizaron la <strong>Revolución de 1944.</strong> Árbenz basó su gobierno en objetivos fundamentales sobresaliendo el convertir a Guatemala en un país económicamente independiente y en un país moderno
+         y capitalista. El 27 de junio de 1954 fue <strong>derrocado</strong> por un golpe de Estado dirigido por el Gobierno de Estados Unidos, con el patrocinio de la UFC y ejecutado por la CIA.
         </p>
       </div>
       <div class=Content_Field_right data-aos="flip-right" data-aos-duration="4000000">
@@ -208,6 +267,21 @@
           Se imparten excursiones <strong>ecológicas y turismo de aventura</strong> pero también la ciudad tiene hoy día vida nocturna, concentrada en parte de su centro histórico, en donde se puede degustar
           de comida y bebida nacional e internacional, en sus diversos restaurantes, bares y centros nocturnos En muchos municipios de este departamento se encuentran tiendas artesanales
           con una gran diversidad de artículos artesanales.
+        </p>
+      </div>
+      <div class=Content_Field data-aos="flip-right" data-aos-duration="4000000">
+        <figure>
+          <img
+            class="image"
+            src="/main_images/Principal/rr.jpg"
+            width="300vh"
+            height="200vh"
+          />
+        </figure>
+        <p class="paragraph" align="justify">
+          <strong>Rodolfo Robles Valverde</strong>, nacido en  Quetzaltenango el  14 de enero de 1878 fue un renombrado filántropo, médico y científico guatemalteco que descubrió la <strong> oncocercosis.</strong> El Dr. Rodolfo Robles Valverde
+          es uno de los verdaderos genios de la medicina guatemalteca, es recordado por el descubrimiento de la causada <strong>“ceguera de la costa”</strong>, ocasionada por las filarias de la onchoerca volvulus, enfermedad hasta
+          entonces solo reconocida en África, la que ahora justamente se le conoce como la <strong>enfermedad de Robles</strong> en su honor.
         </p>
       </div>
     </div>
