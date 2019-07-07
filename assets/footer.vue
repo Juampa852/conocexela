@@ -86,9 +86,6 @@
 .footer-text {
   margin: 1.5px !important;
 }
-.social-div {
-
-}
 .social-img-cx {
   width: 14%;
   height: 14%;
