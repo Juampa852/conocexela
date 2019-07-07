@@ -1,50 +1,36 @@
 <template>
   <footer class="page-footer-cx font-small-cx stylish-color-dark pt-4-cx">
     <!-- Footer Links -->
-    <div class="container text-center">
+    <div class="container text-center text-md-center">
       <!-- Grid row -->
       <div class="row">
         <!-- Grid column -->
         <div id="logo-div-cx" class="col-md-4 mx-auto">
           <!-- Content -->
           <a href="/">
-            <img id="page-logo-cx" src="/nombre3.png" alt="ConoceXela">
+            <img id="page-logo-cx" class="animated bounce page-logo-cx" src="/nombre3.png" alt="ConoceXela">
           </a>
         </div>
         <!-- Grid column -->
         <hr class="clearfix w-100 d-md-none">
         <!-- Grid column -->
-        <div class="col-md-4 mx-auto">
+        <div class="col-md-4 mx-auto text-md-right">
           <!-- Links -->
-          <table id="link-table-cx">
-            <th id="link-table-cx-head" colspan="2">
-              <h5 class="font-weight-bold-cx text-uppercase-cx">Links</h5>
-            </th>
-            <tr class="link-table-cx-row">
-              <td>
-                <!-- TODO -->
-                <a href="/">Inicio</a>
-              </td>
-              <td>
-                <a href="/cultura">Cultura</a>
-              </td>
-            </tr>
-            <tr class="link-table-cx-row">
-              <td>
-                <a href="/lugares">Lugares</a>
-              </td>
-              <td>
-                <a href="/comida">Comida</a>
-              </td>
-            </tr>
-          </table>
+          <h6 id="contacto" class="text-uppercase-cx font-weight-bold-cx">Contacto</h6>
+          <div class="container text-center">
+            <h6 class="font-small-sub-cx mb-4 footer-text">E-mail: </h6>
+            <h6 class="font-small-cx mb-4 footer-text">conoce.xela19@gmail.com</h6>
+            <h6 class="font-small-sub-cx mb-4 footer-text">Teléfono: </h6>
+            <h6 class="font-small-cx mb-4 footer-text">+502 4196-6767</h6>
+            <h6 class="font-small2-cx mb-4 footer-text">Hecho con <span style="color: #e25555;">&hearts;</span> en Xela, por el DevTeam</h6>
+          </div>
         </div>
         <!-- Grid column -->
         <hr class="clearfix w-100 d-md-none">
         <!-- Grid column -->
-        <div class="col-md-4 mx-auto">
+        <div class="col-md-4 my-auto mx-auto">
           <!-- Content -->
-          <nav id="social-nav-cx">
+          <nav>
             <a href="http://www.facebook.com" target="_blank">
               <img class="social-img-cx" src="/social_icons/fb.png" alt="Facebook">
             </a>
@@ -71,6 +57,13 @@
 .font-small-cx {
   font-size: 0.9rem;
 }
+.font-small2-cx {
+  font-size: 0.75rem;
+}
+.font-small-sub-cx {
+  font-size: 0.9rem;
+  text-decoration: underline white;
+}
 .pt-4-cx {
   padding-top: 1.5rem !important;
 }
@@ -90,16 +83,13 @@
 .mb-4 {
   color: #ffff;
 }
-a {
-  color: #ffff !important;
+.footer-text {
+  margin: 1.5px !important;
 }
 .social-img-cx {
-  width: 12%;
-  height: 12%;
+  width: 14%;
+  height: 14%;
   margin: 1%;
-}
-#social-nav-cx {
-  padding-top: 3%;
 }
 #page-logo-cx {
   width: 75%;
@@ -114,12 +104,16 @@ a {
   width: 100%;
   text-align: center;
 }
-.link-table-cx-row {
-  height: 100%;
-}
-#link-table-cx-head {
+#contacto {
   text-align: center;
   color: #ffff;
   /*border:1px solid black;*/
+}
+.page-logo-cx {
+  animation-iteration-count: 0;
+}
+.page-logo-cx:hover {
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
 }
 </style>

@@ -141,7 +141,7 @@
           en el altiplano occidental de Guatemala con una altitud media sobre el nivel del mar de <strong> 2333 msnm</strong>.
         </p>
       </div>
-      <div class=Content_Field_right data-aos="flip-right" data-aos-duration="4000000">
+      <div class=Content_Field_right data-aos="fade-down-left" data-aos-duration="4000000">
         <figure>
           <img
             class="image_right"
@@ -171,7 +171,7 @@
           quiché <strong>Tecún Umán</strong> murió en la batalla cerca de Olintepeque, al norte de Quetzaltenango. Para entonces el <strong>15 de mayo de 1524</strong> se fundó la ciudad.
         </p>
       </div>
-      <div class=Content_Field_right data-aos="flip-right" data-aos-duration="4000000">
+      <div class=Content_Field_right data-aos="fade-down-left" data-aos-duration="4000000">
         <figure>
           <img
             class="image_right"
@@ -186,7 +186,7 @@
           influencia en el desarrollo del repertorio ligero guatemalteco y de la <strong>identidad regional de Quetzaltenango y de toda la República de Guatemala.</strong>
         </p>
       </div>
-      <div class=Content_Field data-aos="flip-right" data-aos-duration="4000000">
+      <div class=Content_Field data-aos="zoom-in-left" data-aos-duration="4000000">
         <figure>
           <img
             class="image"
@@ -201,7 +201,7 @@
           los más importantes criollos miembros del <strong>Partido Liberal de Guatemala</strong> y los enemigos liberales del régimen conservador.
         </p>
       </div>
-      <div class=Content_Field_right data-aos="zoom-in-left" data-aos-duration="4000000">
+      <div class=Content_Field_right data-aos="fade-down-left" data-aos-duration="4000000">
         <figure>
           <img
             class="image_right"
@@ -230,7 +230,7 @@
           con esta construcción fue apegarse al <strong>paisaje de volcanes y cielo azul</strong> de Guatemala.
         </p>
       </div>
-      <div class=Content_Field_right data-aos="zoom-in-left" data-aos-duration="4000000">
+      <div class=Content_Field_right data-aos="fade-down-left" data-aos-duration="4000000">
         <figure>
           <img
             class="image_right"
@@ -260,7 +260,7 @@
          y capitalista. El 27 de junio de 1954 fue <strong>derrocado</strong> por un golpe de Estado dirigido por el Gobierno de Estados Unidos, la UFC y ejecutado por la CIA.
         </p>
       </div>
-      <div class=Content_Field_right data-aos="flip-right" data-aos-duration="4000000">
+      <div class=Content_Field_right data-aos="fade-down-left" data-aos-duration="4000000">
         <figure>
           <img
             class="image_right"
@@ -275,7 +275,7 @@
           con una gran diversidad de artículos artesanales.
         </p>
       </div>
-      <div class=Content_Field data-aos="flip-right" data-aos-duration="4000000">
+      <div class=Content_Field data-aos="zoom-in-left" data-aos-duration="4000000">
         <figure>
           <img
             class="image"
