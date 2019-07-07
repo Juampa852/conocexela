@@ -8,8 +8,8 @@
 
 <script>
 import PaginaPrincipal from '~/components/Principal/PaginaPrincipal.vue'
-import Header from '~/pages/header.vue'
-import Footer from '~/pages/footer.vue'
+import Header from '~/assets/header'
+import Footer from '~/assets/footer.vue'
 export default {
   components: {
     PaginaPrincipal,

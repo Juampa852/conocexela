@@ -12,7 +12,8 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/@ajusa/lit@latest/dist/lit.css' }
     ]
   },
   /*
@@ -23,11 +24,14 @@ export default {
   ** Global CSS
   */
   css: [
+    'aos/dist/aos.css',
+    'animate.css/animate.min.css'
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
+    { src: '~/plugins/aos', ssr: false }
   ],
   /*
   ** Nuxt.js modules
@@ -53,6 +57,7 @@ export default {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-    }
+    },
+    vendor: ['aos']
   }
 }

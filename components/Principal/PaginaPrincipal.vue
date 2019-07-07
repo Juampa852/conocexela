@@ -120,7 +120,7 @@
     </div>
     <!--Content-->
     <div id="main" class="Content">
-      <div class=Content_Field>
+      <div class=Content_Field data-aos="zoom-in-left" data-aos-duration="4000000">
         <figure>
           <img
             class="image"
@@ -135,7 +135,7 @@
           en el altiplano occidental de Guatemala con una altitud media sobre el nivel del mar de <strong> 2333 msnm</strong>.
         </p>
       </div>
-      <div class=Content_Field_right>
+      <div class=Content_Field_right data-aos="flip-right" data-aos-duration="4000000">
         <figure>
           <img
             class="image_right"
@@ -150,7 +150,7 @@
           con el departamento de San Marcos. Sus principales idiomas son el <strong>castellano, mam y k’iche’</strong>.
         </p>
       </div>
-      <div class=Content_Field>
+      <div class=Content_Field data-aos="zoom-in-left" data-aos-duration="4000000">
         <figure>
           <img
             class="image"
@@ -165,7 +165,7 @@
           quiché <strong>Tecún Umán</strong> murió en la batalla cerca de Olintepeque, al norte de Quetzaltenango. Para entonces el <strong>15 de mayo de 1524</strong> se fundó la ciudad.
         </p>
       </div>
-      <div class=Content_Field_right>
+      <div class=Content_Field_right data-aos="flip-right" data-aos-duration="4000000">
         <figure>
           <img
             class="image_right"
@@ -180,7 +180,7 @@
           los más importantes criollos miembros del <strong>Partido Liberal de Guatemala</strong> y los enemigos liberales del régimen conservador.
         </p>
       </div>
-      <div class=Content_Field>
+      <div class=Content_Field data-aos="zoom-in-left" data-aos-duration="4000000">
         <figure>
           <img
             class="image"
@@ -195,7 +195,7 @@
          de México y E.U.A.
         </p>
       </div>
-      <div class=Content_Field_right>
+      <div class=Content_Field_right data-aos="flip-right" data-aos-duration="4000000">
         <figure>
           <img
             class="image_right"
