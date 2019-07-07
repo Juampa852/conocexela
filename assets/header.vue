@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header style="height: 97px">
     <b-navbar toggleable="lg" fixed="top" style="background-color: #142572">
       <b-navbar-brand href="#">
         <div style="width: 105px; height:100%">
@@ -50,14 +50,17 @@
 
 .nav-link {
   color: white !important;
+  overflow: hidden;
+  cursor: pointer;
 }
 .nav-link:hover {
-  background-color: #5faef3;
+  background-color: #5faef3 !important;
   border-radius: 12px;
 }
 
 .nav-link:focus {
-  background-color: #5faef3;
+  background-color: #5faef3 !important;
   border-radius: 12px;
 }
+
 </style>
