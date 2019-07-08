@@ -92,11 +92,11 @@
     </div>
     <!--Content-->
     <div id="main" class="Content">
-      <div class="row Content_Field my-auto" data-aos="zoom-in-left" data-aos-duration="4000000">
+      <div class="row Content_Field" data-aos="zoom-in-left" data-aos-duration="4000000">
         <div class="col-12 col-md-2">
           <img class="image" src="/main_images/Principal/asdf" width="300vh" height="200vh" />
         </div>
-        <div class="col-12 col-md-10 my-auto">
+        <div class="col-12 col-md-10">
           <p class="paragraph" align="justify">
             <strong>Quetzaltenango</strong>, es una ciudad guatemalteca ubicada en el departamento del mismo nombre, también llamada popularmente
             <strong>"Xelajú"</strong> o simplemente
@@ -113,7 +113,7 @@
         data-aos="zoom-in-left"
         data-aos-duration="4000000"
       >
-        <div class="col-12 col-md-10 my-auto">
+        <div class="col-12 col-md-10">
           <p class="paragraph" align="justify">
             Es la cabecera del departamento de Quetzaltenango, que tiene
             <strong>1953 km²</strong>, equivalentes al 1,8 % del territorio nacional. Quetzaltenango limita al norte con el
