@@ -1,0 +1,122 @@
+{
+    "1": {
+        "nombre": "Volcán Santa María",
+        "descripcion": "Es un volcán inactivo cerca de la ciudad de Quetzaltenango. Es el cuarto volcán más alto de Guatemala, para subirlo toma aproximadamente cuatro horas y tres para el descenso. A veces, en la época fría (octubre-febrero), se cubre de escarcha o nieve y puede verse desde la Ciudad de Quetzaltenango su cono blanco. El Volcán Santiaguito se ubica al sureste del cono del Volcán Santa María. Se ubica a 11 kilómetros aproximadamente de la Ciudad de Quetzaltenango.",
+        "imagenes": ["/imagenes-lugares/VolcanSantaMaria1.jpg",
+            "/imagenes-lugares/VolcanSantaMaria2.jpg",
+            "/imagenes-lugares/VolcanSantaMaria3.jpg",
+            "/imagenes-lugares/VolcanSantaMaria4.png"]
+    },
+    "2": {
+        "nombre": "Parque a Centroamérica",
+        "descripcion": "Consistía en realidad de 2 jardines, uno de los cuales era parte o extensión del atrio de la iglesia. Estaban separados por un portal cuya función era plenamente comercial. En 1938 se trazó su distribución final, durante el gobierno de Jorge Ubico. Los antiguos jardines fueron integrados en un solo cuerpo. Fue y sigue siendo centro de actividades importantes de caracter social y político, sufrió varias remodelaciones. El kiosko del Parque es un monumento a uno de los autores del Himno Nacional: Rafael Álfavez Ovalle.",
+        "imagenes": ["/imagenes-lugares/ParqueCentral1.jpg",
+            "/imagenes-lugares/ParqueCentral2.jpg",
+            "/imagenes-lugares/ParqueCentral3.jpg",
+            "/imagenes-lugares/ParqueCentral4.jpg"]
+    },
+    "3": {
+        "nombre": "Cerro El Baúl",
+        "descripcion": "Constituye el pulmón urbano de la ciudad, el cual ha sido tradicionalmente un centro de recreación familiar. Puede subirse desde el departamento de Quetzaltenango ya sea a pie, en carro o bicicleta. Podrá observarse el casco urbano rodeado de pura naturaleza.",
+        "imagenes": ["/imagenes-lugares/ElBaul1.jpg",
+            "/imagenes-lugares/ElBaul2.jpg",
+            "/imagenes-lugares/ElBaul3.jpg"]
+    },
+    "4":{
+        "nombre": "Teatro Municipal",
+        "descripcion": "Este teatro pasó por varias restauraciones. Su diseño original es obra del arquitecto Durini, quien logra un estilo del neorrenacimiento francés debido a que hizo uso de elementos decorativos típicos de la cultura francesa. El entorno del teatro ha sido adornado con varios monumentos a lo largo del tiempo, de ellos el que más se destaca es la estatua de Artemisa, personaje de la mitología griega, diosa de la naturaleza, las cosechas y la caza.",
+        
+        "imagenes": ["/imagenes-lugares/Teatro1.jpg",
+            "/imagenes-lugares/Teatro2.jpg",
+            "/imagenes-lugares/Teatro3.jpg"]
+    },
+    "5": {
+        "nombre": "Catedral del Espíritu Santo",
+        "descripcion": "Se empezó a construir aproximadamente en mayo de 1532. Este templo fue fundado por los españoles luego de conquistar la Ciudad de Quetzaltenango y en honor al Espíritu Santo. Luego de sufrir deterioros por los terremotos de 1765, 1853 y otros años, la nueva catedral se construyó y el resultado fue la impresión de que hay dos iglesias unidas, pero en realidad es la fachada de la catedral antigua y la nueva construcción.",
+        
+        "imagenes": ["/imagenes-lugares/Catedral1.jpg",
+            "/imagenes-lugares/Catedral2.jpg",
+            "/imagenes-lugares/Catedral3.jpg"]
+    },
+    "6": {
+        "nombre": "Templo a Minerva",
+        "descripcion": "Su construcción se inició en 1,917 por órdenes del Presidente Manuel Estrada Cabrera.  El presidente Cabrera pensó que debía estimular entre los niños y jóvenes el amor a la sabiduría y el estudio. Por eso, mandó a construir en las cabeceras departamentales y en los principales municipios del país réplicas del Partenón a las que llamó Templos de Minerva. Cada año se realizaba premiación de los mejores alumnos de escuelas y colegios y se hacían las celebraciones culturales y deportivas. Estas fiestas se llamaron Minervalias y se elegía en ellas a una joven estudiosa y linda como 'diosa Minerva'. Actualmente la mayoría de templos ha desaparecido y es el de Quetzaltenango el que aún se conserva en buen estado.",
+        
+        "imagenes": ["/imagenes-lugares/TemploMinerva1.PNG",
+            "/imagenes-lugares/TemploMinerva2.PNG",
+            "/imagenes-lugares/TemploMinerva3.PNG"]
+    },
+    "7": {
+        "nombre": "Parque Zoológico Minerva",
+        "descripcion": "Este es un zoológico que lleva más de 60 años de existir, podrás observar desde monos, aves, cabras, venados y otras especies distintas. Zoológico Minerva es ideal para divertirte y salir de la rutina, para compartir con la naturaleza y los animales. Cuya misión es Promover la presentación de la flora y la fauna, mediante programas de educación, investigación y conservación: así como la recreación al visitante que utiliza los servicios del Parque Zoológico Minerva.",
+        
+        "imagenes": ["/imagenes-lugares/Zoologico1.jpg",
+            "/imagenes-lugares/Zoologico2.jpg",
+            "/imagenes-lugares/Zoologico3.jpg"]
+    },
+    "8": {
+        "nombre": "Monumento a Tecún Umán",
+        "descripcion": "Tecún Umán fue el último mandatario de los maya-k´iche´ en Guatemala. Gracias a que se considera un heroe nacional en Guatemala se le hizo un monumento que está actualmente situado en el redondel al final de la 29 Avenida de la zona 7 de Quetzaltenango.",
+        
+        "imagenes": ["/imagenes-lugares/TecunUman1.jpg",
+            "/imagenes-lugares/TecunUman2.jpg",
+            "/imagenes-lugares/TecunUman3.jpg"]
+    },
+    "9": {
+        "nombre": "Monumento a la Marimba",
+        "descripcion": "El Monumento a la Marimba es una obra de grandes calidades artísticas, creada por el maestro Rodolfo Galeotti Torres.  Este es un homenaje al instrumento nacional de Guatemala, a los autores de la música interpretada en ella, a los virtuosos marimbistas y en general, al instrumento emblemático de nuestra cultura.",
+        
+        "imagenes": ["/imagenes-lugares/Marimba1.jpg",
+            "/imagenes-lugares/Marimba2.jpg",
+            "/imagenes-lugares/Marimba3.jpg"]
+    },
+    "10": {
+        "nombre": "Museo del Ferrocarril de Los Altos",
+        "descripcion": "El Museo del Ferrocarril de los Altos en Quetzaltenango es interesante y se encuentra bastante completo con toda la historia acerca del ferrocarril de los altos en quetzaltenango. Fotografías muy antiguas que muestran la manera en la que las personas se movilizaban utilizando trenes de distintos tamaños y formas.",
+        
+        "imagenes": ["/imagenes-lugares/Ferrocarril1.jpg",
+            "/imagenes-lugares/Ferrocarril2.jpg",
+            "/imagenes-lugares/Ferrocarril3.jpg"]
+    },
+    "11": {
+        "nombre": "Ermita de la Concepción - Salcajá",
+        "descripcion": "Considerada como la primera iglesia que se construyó en Centroamérica. Su edificación data del año 1524 y en su interior permaneció la primera imagen de la Virgen de Concepción, que fue traída de España. La Ermita de Concepción posee una estructura rústica y de gran tamaño, con detalles únicos. Desde afuera se puede ver una fachada llena de detalles rojos con diseños muy antiguos y en la parte de adentro se pueden ver paredes con murales con más de 300 años.",
+        
+        "imagenes": ["/imagenes-lugares/Ermita1.jpg",
+            "/imagenes-lugares/Ermita2.jpg",
+            "/imagenes-lugares/Ermita3.jpg"]
+    },
+    "12": {
+        "nombre": "Fuentes Georginas - Zunil",
+        "descripcion": "Son muy populares entre los guatemaltecos por ser un centro de recreación y descanso. Fueron descubiertas por jornaleros en 1902 y se convirtieron en baños comunales. De hecho, las aguas termales en sí fueron creadas a los pies del volcán Zunil después de que se formara el volcán Santiaguito.",
+        
+        "imagenes": ["/imagenes-lugares/Georginas1.jpg",
+            "/imagenes-lugares/Georginas2.jpg",
+            "/imagenes-lugares/Georginas3.jpg"]
+    },
+    "13": {
+        "nombre": "Laguna de Chicabal - San Martín Sacatepéquez",
+        "descripcion": "El volcán Chicabal tiene la característica que en su cráter cuenta con una laguna impresionante con el mismo nombre. Son 3 horas de subida y 2 de bajada, en donde puedes circular la laguna a pie, en la que alrededor existen cruces de madera que sirven de altares para rituales mayas.",
+        
+        "imagenes": ["/imagenes-lugares/Chicabal1.jpg",
+            "/imagenes-lugares/Chicabal2.jpg",
+            "/imagenes-lugares/Chicabal3.jpg"]
+    },
+    "14": {
+        "nombre": "Las Cumbres ECO-Sauna - Zunil",
+        "descripcion": "Las Cumbres cuenta con un ecosauna y hotel se encuentra rodeado de volcanes, cuenta con servicios de huertos húmedos. Tienen también tinas de hidroterapia, baños de vapor en tinas de barro, y saunas antiestrés. Se ubica en el Km 210.5 Carretera al Pacífico, Zunil.",
+        
+        "imagenes": ["/imagenes-lugares/Cumbres1.jpg",
+            "/imagenes-lugares/Cumbres2.jpg",
+            "/imagenes-lugares/Cumbres3.jpg",
+            "/imagenes-lugares/Cumbres4.jpg"]
+    },
+    "15": {
+        "nombre": "La Laguneta - Salcajá",
+        "descripcion": "La Laguneta de Salcaja es un destino para divertirse en familia con nuevas instalaciones. Puede estar en contacto con la naturaleza navegando en una pequeña lancha por la Laguneta. Cuenta con parqueo, piscinas climatizadas, ranchos para almorzar y áreas verdes para días de campo.",
+        
+        "imagenes": ["/imagenes-lugares/Laguneta1.jpg",
+            "/imagenes-lugares/Laguneta2.jpg",
+            "/imagenes-lugares/Laguneta3.jpg"]
+    }
+}
