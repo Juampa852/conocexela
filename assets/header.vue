@@ -23,10 +23,10 @@
 
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <b-nav-item href="#">Inicio</b-nav-item>
-          <b-nav-item href="#">Lugares</b-nav-item>
-          <b-nav-item href="#">Cultura</b-nav-item>
-          <b-nav-item href="#">Comida</b-nav-item>
+          <b-nav-item href="/">Inicio</b-nav-item>
+          <b-nav-item href="/lugares">Lugares</b-nav-item>
+          <b-nav-item href="/cultura">Cultura</b-nav-item>
+          <b-nav-item href="/comida">Comida</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>

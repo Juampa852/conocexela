@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import PaginaPrincipal from '~/components/Cultura/cultura.vue'
+import PaginaPrincipal from '~/components/Comidas/Comidas.vue'
 import Header from '~/assets/header'
 import Footer from '~/assets/footer.vue'
 export default {
