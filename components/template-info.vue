@@ -1,10 +1,11 @@
 <template>
-  <div id="divcultura" class="container">
+  <div v-if="id<municipios.length" id="divcultura" class="container">
     <div class="container">
-      <div class="row"><button type="button" class="btn btn-primary">Volver</button></div>
-      <h1 align="center">
+      <hr>
+      <!--<div class="row"><button type="button" class="btn btn-primary">Volver</button></div>-->
+      <h2 align="center">
         {{ municipios[id].nombre }}
-      </h1>
+      </h2>
       <hr><br>
     </div>
     <div class="text-center">
@@ -13,9 +14,9 @@
           <div class="row">
             <!-- Conteido texto -->
             <div class="col-12 col-md-6">
-              <h2 class="text-center">
+              <h3 class="text-center">
                 {{ tradicion.nombre }}
-              </h2>
+              </h3>
               <p v-for="(parrafo,index) in tradicion.contenido" :key="index" align="justify">
                 {{ parrafo }}
               </p>
@@ -87,7 +88,7 @@
   </div>
 </template>
 <script>
-import JSONcultura from './cultura-muni.json'
+import JSONcultura from './Cultura/cultura-muni.json'
 export default {
   props: {
     id: Number

@@ -1,89 +1,164 @@
 {
-    "name":"a",
-    "municipios":[
+  "name": "a",
+  "municipios": [
+    {
+      "index": 3,
+      "nombre": "Almolonga",
+      "tradiciones": [
         {
-            "index":1,
-            "nombre":"Salcaja",
-            "tradiciones":[
-                {
-                    "index":1,
-                    "video":true,
-                    "nombre":"Fiesta Patronal: San Luis Rey de Francia",
-                    "contenido":[
-                            "La fiesta patronal del municipio de Salcajá se celebra el 25 de agosto entre diversas costumbres y tradiciones y también con actividades populares y religiosas."
-                            ,"La celebración de la fiesta patronal del municipio de Salcajá da inicio con la elección e investidura de distintas reinas de belleza, entre ellas la madrina de los empleados, la señorita Salcajá y la señorita casa de la cultura.",
-                            "Al finalizar este evento se realiza un baile social en honor a las reinas electas."
-                        ],
-                        
-                    "media": "https://www.youtube.com/embed/LiK_1Tg3yuo?ecver=1&amp;iv_load_policy=3&amp;rel=0&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red&amp;width=560&amp;width=560"
-                    },
-                {
-                    "index":2,
-                    "nombre":"Recorrido de los diablos",
-                    "video":false,
-                    "contenido": ["Cada 7 de diciembre los vecinos de Salcajá, Quetzaltenango, realizan el Recorrido de los Diablos en Salcajá. En esta actividad todos los participantes muestran sus creatividad al pintar su cuerpo. En esta tradición, los residentes del municipio y pueblos aledaños se pintan el cuerpo con pintura para madera, mezclada con aceite. Con esto, los pobladores escenifican la figura del diablo y recorren las principales calles del lugar.",
-                        "Durante su recorrido, los pobladores retan a los diablos y estos deben correr. Según las creencias, esta es la manera adecuada de expulsar el mal del pueblo"],
-                    "media": [
-                        "/imagenes-cultura/diablos1.jpg",
-                        "/imagenes-cultura/diablos2.jpg"
-                    ]
-                },
-                {
-                    "index":3,
-                    "nombre":"Caldo de frutas",
-                    "video":false,
-                    "contenido": ["La bebida es un licor casero cuya fórmula ha sido mejorada y heredada entre sus habitantes, y que se ha convertido en una bebida tradicional que se degusta en ocasiones especiales, como la Navidad. Esta bebida espirituosa se obtiene de la mezcla de diversas frutas, agua, azúcar y aguardiente. ",
-                        "Aunque no saben la fecha precisa, los salcajenses aseguran que sus antepasados aprendieron a elaborar el caldo de frutas durante la época de la Colonia, y creen que esta tradición comenzó en el siglo XVIII.",
-                        "La elaboración del caldo de frutas de Salcajá comienza con la producción del licor claro, que se hace con agua pura, levadura y panela, ingredientes que tienen un cocimiento previo de una hora. Simultáneamente se lavan las frutas y se cortan en trozos. Generalmente usan manzanas, cerezas, membrillo, mamey, durazno, pera, jocote, marañón y moras. También se hace un cocimiento de agua y canela que se coloca en un barril de madera, junto con las frutas, que deben echarse crudas. El reposo o fermentación dura más de nueve meses."
-                    ],
-                    "media": [
-                        "/imagenes-cultura/caldo-fruta2.jpg",
-                        "/imagenes-cultura/caldo-fruta3.jpg"
-                    ]
-                }
-            ]
+          "index": 1,
+          "video": false,
+          "nombre": "Historia",
+          "contenido": [
+            "El nombre de Almolonga significa lugar donde mana el agua, en lengua náhuatl. El municipio de Almolonga tiene una población de 11,001 habitantes. Alrededor del 20% de la población es rural yel 80% habita en el área urbana"
+          ],
+          "media": [
+            "/imagenes-municipios/almolonga2.jpg"
+          ]
         },
         {
-            "index":2,
-            "nombre":"San Juan Ostuncalco",
-            "tradiciones":[
-                {
-                    "index":1,
-                    "video":true,
-                    "nombre":"Fiesta Patronal: San Luis Rey de Francia",
-                    "contenido":[
-                            "La fiesta patronal del municipio de Salcajá se celebra el 25 de agosto entre diversas costumbres y tradiciones y también con actividades populares y religiosas."
-                            ,"La celebración de la fiesta patronal del municipio de Salcajá da inicio con la elección e investidura de distintas reinas de belleza, entre ellas la madrina de los empleados, la señorita Salcajá y la señorita casa de la cultura.",
-                            "Al finalizar este evento se realiza un baile social en honor a las reinas electas."
-                        ],
-                        
-                    "media": "https://www.youtube.com/embed/LiK_1Tg3yuo?ecver=1&amp;iv_load_policy=3&amp;rel=0&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red&amp;width=560&amp;width=560"
-                    },
-                {
-                    "index":2,
-                    "nombre":"Dia de Diablos",
-                    "video":false,
-                    "contenido": ["Cada 7 de diciembre los vecinos de Salcajá, Quetzaltenango, realizan el Recorrido de los Diablos en Salcajá. En esta actividad todos los participantes muestran sus creatividad al pintar su cuerpo. En esta tradición, los residentes del municipio y pueblos aledaños se pintan el cuerpo con pintura para madera, mezclada con aceite. Con esto, los pobladores escenifican la figura del diablo y recorren las principales calles del lugar.",
-                        "Durante su recorrido, los pobladores retan a los diablos y estos deben correr. Según las creencias, esta es la manera adecuada de expulsar el mal del pueblo"],
-                    "media": [
-                        "/imagenes-cultura/diablos1.jpg",
-                        "/imagenes-cultura/diablos2.jpg"
-                    ]
-                },
-                {
-                    "index":3,
-                    "nombre":"Caldo de frutas",
-                    "video":false,
-                    "contenido": ["La bebida es un licor casero cuya fórmula ha sido mejorada y heredada entre sus habitantes, y que se ha convertido en una bebida tradicional que se degusta en ocasiones especiales, como la Navidad. Esta bebida espirituosa se obtiene de la mezcla de diversas frutas, agua, azúcar y aguardiente. ",
-                        "Aunque no saben la fecha precisa, los salcajenses aseguran que sus antepasados aprendieron a elaborar el caldo de frutas durante la época de la Colonia, y creen que esta tradición comenzó en el siglo XVIII.",
-                        "La elaboración del caldo de frutas de Salcajá comienza con la producción del licor claro, que se hace con agua pura, levadura y panela, ingredientes que tienen un cocimiento previo de una hora. Simultáneamente se lavan las frutas y se cortan en trozos. Generalmente usan manzanas, cerezas, membrillo, mamey, durazno, pera, jocote, marañón y moras. También se hace un cocimiento de agua y canela que se coloca en un barril de madera, junto con las frutas, que deben echarse crudas. El reposo o fermentación dura más de nueve meses."
-                    ],
-                    "media": [
-                        "/imagenes-cultura/caldo-fruta2.jpg",
-                        "/imagenes-cultura/caldo-fruta3.jpg"
-                    ]
-                }
-            ]
+          "index": 2,
+          "nombre": "Traje Tipico",
+          "video": false,
+          "contenido": [
+            "Resaltan los colores y disposición de bandas geométricas en las que se alternan composiciones de colores con diseños oblicuos que forman puntas de flechas o relámpagos."
+          ],
+          "media": [
+            "/imagenes-municipios/traje1.jpg"
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "index": 4,
+      "nombre": "Cantel",
+      "tradiciones": [
+        {
+          "index": 1,
+          "video": false,
+          "nombre": "Historia",
+          "contenido": [
+            "Fue originalmente fundado como el poblado de «Nuestra Señora de la Asunción de Cantel» debido a que hubo una aparición de una imagen de la Virgen de la Asunción en un tronco en el lugar; por su parte, «Cantel» proviene de los términos náhuatl «can» y «t’el», que significan «serpiente» y «cueva». Celebra su fiesta titular el 15 de agosto en honor a su patrona la Virgen de la Asunción"
+          ],
+          "media": [
+            "/imagenes-municipios/cantel1.jpg"
+          ]
+        },
+        {
+          "index": 2,
+          "nombre": "Economia",
+          "video": false,
+          "contenido": [
+            "Cantel es una empresa con más de 100 años de experiencia en la industria textil. La compañía fue fundada en éste municipio y fue la primera fábrica de textiles en Guatemala. Cantel se estableció en una zona con una mano de obra poseedora de un conocimiento milenario en tejidos e hilados y desde entonceshemos logrado estar presentes en los hogares guatemaltecos ofreciendo productos textiles de la más alta calidad."
+          ],
+          "media": [
+            "imagenes-municipios/cantel.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "nombre": "Coatepeque",
+      "tradiciones": [
+        {
+          "index": 1,
+          "video": false,
+          "nombre": "Historia",
+          "contenido": [
+            "Coatepeque (del náhuatl, significa «en el cerro de la serpiente»). Tardó aproximadamente ochenta años en evolucionar de ejido a comunidad, y luego a villorrio (poblado pequeño); para finalmente alcanzar la categoría de villa, se mantuvo como villa durante mucho tiempo hasta que fue reconocido como municipio el 6 de noviembre de 1951."
+          ],
+          "media": [
+            "/imagenes-municipios/coatepeque1.jpg"
+          ]
+        },
+        {
+          "index": 2,
+          "nombre": "Feria Titular",
+          "video": false,
+          "contenido": [
+            "Se celebra el 15 de marzo de cada año, conocida como la feria de verano y es una de las más grandes de la región debido a que hay muchos eventos como desfiles, juegos mecánicos y eventos deportivos.",
+            "La segunda feria titular es el 25 de julio de cada año, en honor a su patrono, Santiago Apóstol."
+          ],
+          "media": [
+            "/imagenes-municipios/feriacoatepeque.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "nombre": "Salcaja",
+      "tradiciones": [
+      {
+        "index": 1,
+        "video": true,
+        "nombre": "Fiesta Patronal: San Luis Rey de Francia",
+        "contenido": [
+            "La fiesta patronal del municipio de Salcajá se celebra el 25 de agosto entre diversas costumbres y tradiciones y también con actividades populares y religiosas.",
+            "La celebración de la fiesta patronal del municipio de Salcajá da inicio con la elección e investidura de distintas reinas de belleza, entre ellas la madrina de los empleados, la señorita Salcajá y la señorita casa de la cultura.",
+            "Al finalizar este evento se realiza un baile social en honor a las reinas electas."
+        ],
+        "media": "https://www.youtube.com/embed/LiK_1Tg3yuo?ecver=1&amp;iv_load_policy=3&amp;rel=0&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red&amp;width=560&amp;width=560"
+      },
+      {
+        "index": 2,
+        "nombre": "Recorrido de los diablos",
+        "video": false,
+        "contenido": [
+            "Cada 7 de diciembre los vecinos de Salcajá, Quetzaltenango, realizan el Recorrido de los Diablos en Salcajá. En esta actividad todos los participantes muestran sus creatividad al pintar su cuerpo. En esta tradición, los residentes del municipio y pueblos aledaños se pintan el cuerpo con pintura para madera, mezclada con aceite. Con esto, los pobladores escenifican la figura del diablo y recorren las principales calles del lugar.",
+            "Durante su recorrido, los pobladores retan a los diablos y estos deben correr. Según las creencias, esta es la manera adecuada de expulsar el mal del pueblo"
+        ],
+        "media": [
+            "/imagenes-cultura/diablos1.jpg",
+            "/imagenes-cultura/diablos2.jpg"
+        ]
+      },
+        {
+          "index": 3,
+          "nombre": "Caldo de frutas",
+          "video": false,
+          "contenido": [
+              "La bebida es un licor casero cuya fórmula ha sido mejorada y heredada entre sus habitantes, y que se ha convertido en una bebida tradicional que se degusta en ocasiones especiales, como la Navidad. Esta bebida espirituosa se obtiene de la mezcla de diversas frutas, agua, azúcar y aguardiente. ",
+              "Aunque no saben la fecha precisa, los salcajenses aseguran que sus antepasados aprendieron a elaborar el caldo de frutas durante la época de la Colonia, y creen que esta tradición comenzó en el siglo XVIII.",
+              "La elaboración del caldo de frutas de Salcajá comienza con la producción del licor claro, que se hace con agua pura, levadura y panela, ingredientes que tienen un cocimiento previo de una hora. Simultáneamente se lavan las frutas y se cortan en trozos. Generalmente usan manzanas, cerezas, membrillo, mamey, durazno, pera, jocote, marañón y moras. También se hace un cocimiento de agua y canela que se coloca en un barril de madera, junto con las frutas, que deben echarse crudas. El reposo o fermentación dura más de nueve meses."
+          ],
+          "media": [
+              "/imagenes-cultura/caldo-fruta2.jpg",
+              "/imagenes-cultura/caldo-fruta3.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "nombre": "San Juan Ostuncalco",
+      "tradiciones": [
+        {
+          "index": 1,
+          "video": false,
+          "nombre": "Fiesta Patronal: Virgen de Candelaria",
+          "contenido": [
+            "Esta se lleva a cabo del 30 de enero al 2 de febrero. Entre las actividades religiosas se encuentra la procesión de la cofradía de Candelaria que, escoltada por mayordomos y capitanas recorre las calles del pueblo durante el día mayor. Entre incienso, quema de pólvora y música de marcha, los fieles siguen el cortejo.",
+            "Durante el día, los devotos asisten al santuario para agradecer los milagros y pedir la bendición a la imagen de la Virgen del altar mayor, que se encuentra protegida en un camarín.",
+            "En el parque central se instalan varios escenarios, en los que se presentan distintas bandas musicales que realizan conciertos musicales simultáneos. En unos se realiza bailes de convite y desfile de disfraces, tradición de adaptación reciente, amenizados por música regional. En otro espacio se realiza la exhibición del baile El Torito."
+          ],
+          "media": [
+            "/imagenes-cultura/feria-sanjuan.jpg",
+            "/imagenes-cultura/feria-sanjuan1.jpg"
+          ]
+        },
+        {
+          "index": 2,
+          "nombre": "Baile de los Gigantes",
+          "video": true,
+          "contenido": [
+            "Este se realiza el 15 y 16 de julio, en honor a la fiesta de la Virgen del Carmen. En 1904 inició el baile de los gigantes al sonido del tun y la chirimía, pero solo se realizaba en la casa de la señora Amalia Dolores Lepe, que después de su fallecimiento quedó a propiedad de Isabel Lepe de Pac, y se celebraba en la panadería El Rosario.",
+            "Actualmente se contrata a la “marimba de Toritos” y una banda para amenizar el baile de los Gigantes y el recorrido de la procesión, en esos días de celebración ambas familias brindan refacciones, almuerzos y paches para la población de San Juan Ostuncalco y turistas."
+          ],
+          "media": "https://www.youtube.com/embed/TWKMkicKjfo?ecver=1&amp;iv_load_policy=1&amp;yt:stretch=16:9&amp;autohide=1&amp;color=red&amp;width=560&amp;width=560"
+        }
+      ]
+    }
+  ]
 }
