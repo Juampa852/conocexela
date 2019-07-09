@@ -27,6 +27,11 @@
                 <p class="card-text" Align="Justify">
                   {{ comida.descripcion }}
                 </p>
+                <ul>
+                  <li v-for="ingrediente in comida.ingredientes" :key="ingrediente">
+                    {{ ingrediente }}
+                  </li>
+                </ul>
               </div>
             </div>
             <br>

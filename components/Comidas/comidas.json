@@ -1,66 +1,76 @@
 {
     "1": {
         "nombre": "Jocon",
-        "descripcion": "Está compuesto por carne de gallina criolla española o de pollo con salsas tradicionales del país. La palabra jocón se origina del quiché jok om y significa recado verde por sus ingredientes originales como: el miltomate, tomate verde. cebolla con tallo, cilantro y chile.",
+        "descripcion": "Está compuesto por carne de gallina criolla española o de pollo con salsas tradicionales del país. La palabra jocón se origina del quiché jok om y significa recado verde por sus ingredientes originales como: el miltomate, tomate verde, cebolla con tallo, cilantro y chile.",
         "imagenes": ["/imagenes-comidas/jocon.jpg",
         "/imagenes-comidas/jocon-2.jpg",
-        "/imagenes-comidas/jocon-3.jpg"]
+        "/imagenes-comidas/jocon-3.jpg"],
+        "ingredientes": ["6 tallos verdes de cebolla", "1 manojito de culantro", 
+            "1/2 libra de tomate verde","1/2 libra de miltomate", "6 chiles pimientos verdes (medianos)","1 pan francés (previamente remojado", "Aceite", "Masa de maíz", "Agua", "Sal (al gusto)", "Pimienta (opcional)"]
     },
     "2":{
         "nombre": "Pepian",
         "descripcion": "El pepian es un guiso tradicional guatemalteco de origen kaqchikel. Su origen es prehispánico y se servían en las ceremonias religiosas mayas. Puede ser de carne, cerdo, pollo o una mezcla entre ellos.",
         "imagenes": ["/imagenes-comidas/pepian.jpg",
         "/imagenes-comidas/pepian-2.jpg",
-        "/imagenes-comidas/pepian-3.jpg"]
+        "/imagenes-comidas/pepian-3.jpg"],
+        "ingredientes": ["2 libras de tomate", "4 onzas de miltomate", "1 cebolla", "2 dientes de ajo", "2 chiles pasa", "1 chile guaque", "1 manojo de cilantro", "4 onzas de pepitoria", "4 onzas de ajonjolí", "3 zanahorias", "1 guisquil", "3 papas grandes", "1/2 libra de ejotes"]
     },
     "3":{
         "nombre": "Caldo de Pollo",
         "descripcion":"Conocido como un remedio casero contra los resfríos, el caldo de pollo es uno de los platillos más degustados en los hogares guatemaltecos. La receta, originaria de España, llegó a Guatemala en la época colonial, y a tavés del tiempo ha sido modificada y adaptada en cada región del país.",
         "imagenes": ["/imagenes-comidas/caldo-de-pollo.jpg",
         "/imagenes-comidas/caldo-de-pollo-2.jpg",
-        "/imagenes-comidas/caldo-de-pollo-3.jpg"]
+        "/imagenes-comidas/caldo-de-pollo-3.jpg"],
+        "ingredientes": ["1 pollo de dos libras o tres pechugas", "1 libra de papas", "2 dientes de ajo", "1 zanahoria", "1 sopa de consomé de pollo", "2 cucharadas de apio picado no muy fino", "1 cebolla", "Cilantro", "7 tazas de agua", "Sal al gusto"]
     },
     "4":{
         "nombre": "Caldo de Panza",
         "descripcion":"Uno de los ingredientes que muchos guatemaltecos aman sus platillos es la panza de res. Posee un alto valor nutricional y sabor, por eso, prepararla en caldo te ecantará.",
         "imagenes": ["/imagenes-comidas/caldo-de-panza.jpg",
         "/imagenes-comidas/caldo-de-panza-2.jpg",
-        "/imagenes-comidas/caldo-de-panza-3.jpg"]
+        "/imagenes-comidas/caldo-de-panza-3.jpg"],
+        "ingredientes": ["1 pata de res", "4 libras de panza", "8 tomates", "2 cebollas", "2 chiles pimientos", "Pimienta", "Orégano", "Sal"]
     },
     "5":{
         "nombre": "Tamalitos de Chipilín",
         "descripcion":"Los tamalitos de chipilín no pueden faltar en ningpun hogar guatemalteco, donde son servidos en distintas presentaciones pero el sabor es único y exquisito. Normalmente, son acompañados por salsa roja, perejil y queso duro.",
         "imagenes": ["/imagenes-comidas/chipilin.jpg",
         "/imagenes-comidas/chipilin-2.jpg",
-        "/imagenes-comidas/chipilin-3.jpg"]
+        "/imagenes-comidas/chipilin-3.jpg"],
+        "ingredientes": ["10 onzas de hoja de chipilín", "4 onzas de manteca de cerdo", "1/2 libra de queso fresco", "2 libras de harina de maíz", "Hojas de maíz", "Sal"]
     },
     "6":{
         "nombre": "Chuchitos",
         "descripcion":"El chuchito es un plato nacional, tradicional y emblemático de la gastronomía Guatemalteca, elaborado a base de masa de maíz, y generalmente va mezclado de un recado o salsa de tomate y con un relleno que puede ser de carne de res o de cerdo. Este chuchito suele ir acompañado de una salsa de tomate y espolvoreado con queso duro.",
         "imagenes": ["/imagenes-comidas/chuchitos.jpg",
         "/imagenes-comidas/chuchitos-2.jpg",
-        "/imagenes-comidas/chuchitos-3.jpg"]
+        "/imagenes-comidas/chuchitos-3.jpg"],
+        "ingredientes": ["2 libras de maseca", "1/2 libra de manteca derretida", "1/2 taza de aceite", "2 cucharaditas de sal", "2 saborines", "1 cucharadita de consomé de pollo"]
     },
     "7":{
         "nombre": "Atol de Elote",
         "descripcion":"El Atol de Elote es una bebida ancestral, hecha a base de maíz y de un sabor único y exquisito.  Para los mayas el maíz era un alimento sagrado, se consumía en diversas ceremonias, pero era también consumido como alimento diariamente.",
         "imagenes": ["/imagenes-comidas/atol-de-elote.jpg",
         "/imagenes-comidas/atol-de-elote-2.jpg",
-        "/imagenes-comidas/atol-de-elote-3.jpg"]
+        "/imagenes-comidas/atol-de-elote-3.jpg"],
+        "ingredientes": ["2 tazas de granos de elote amarillo", "4 1/2 tazas de agua fría", "1 raja de canela", "1 taza de azúcar", "1/2 cucharadita de sal"]
     },
     "8":{
         "nombre": "Caldo de Frutas",
         "descripcion":"El caldo de Frutas es una bebida muy famosa y está hecha a base de frutas con un toque de licor. Con diversas frutas, agua, azúcar y un poco de aguardiente, esta es una bebida muy buena que normalmente se consume en épocas de calor.",
         "imagenes": ["/imagenes-comidas/caldo-de-frutas.jpg",
         "/imagenes-comidas/caldo-de-frutas-2.jpg",
-        "/imagenes-comidas/caldo-de-frutas-3.jpg"]
+        "/imagenes-comidas/caldo-de-frutas-3.jpg"], 
+        "ingredientes": ["Cáscara de piña", "Maíz amarillo tostado", "Panela", "Anís", "Pimienta gorda triturada", "Jengibre machacado", "Agua"]
     },
     "9":{
         "nombre": "Shecas",
         "descripcion":"Las shecas son panes dulces que son elaborados en el departamento de Quetzaltenango. Su principal ingrediente es el anís, el cual le brinda un singular aroma. Se acostumbra a comerlas acompañadas de una taza de café o chocolate.",
         "imagenes": ["/imagenes-comidas/shecas.jpg",
         "/imagenes-comidas/shecas-2.jpg",
-        "/imagenes-comidas/shecas-3.jpg"]
+        "/imagenes-comidas/shecas-3.jpg"],
+        "ingredientes": ["5 libras de harina", "1 libra de rapadura", "1 libra de manteca", "5 onzas de levadura","25 onzas de agua", "1 onza de sal", "1/2 onza de royal", "Miel", "Canela", "Anís"]
     }
 
 }
