@@ -21,12 +21,13 @@
               </b-carousel>
 
               <div class="card-body">
-                <h5 class="card-title">
+                <h4 class="card-title">
                   {{ comida.nombre }}
-                </h5>
+                </h4>
                 <p class="card-text" Align="Justify">
                   {{ comida.descripcion }}
                 </p>
+                <h5>Ingredientes</h5>
                 <ul>
                   <li v-for="ingrediente in comida.ingredientes" :key="ingrediente">
                     {{ ingrediente }}
@@ -63,5 +64,8 @@ export default {
   .imagen {
     width: 100%;
     height: 250px;
+  }
+  body {
+    background-color: #f4f6f8;
   }
 </style>

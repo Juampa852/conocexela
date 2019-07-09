@@ -6,7 +6,7 @@
         "/imagenes-comidas/jocon-2.jpg",
         "/imagenes-comidas/jocon-3.jpg"],
         "ingredientes": ["6 tallos verdes de cebolla", "1 manojito de culantro", 
-            "1/2 libra de tomate verde","1/2 libra de miltomate", "6 chiles pimientos verdes (medianos)","1 pan francés (previamente remojado", "Aceite", "Masa de maíz", "Agua", "Sal (al gusto)", "Pimienta (opcional)"]
+            "1/2 libra de tomate verde","1/2 libra de miltomate", "6 chiles pimientos verdes","1 pan francés (previamente remojado", "Aceite", "Masa de maíz", "Agua", "Sal (al gusto)", "Pimienta (opcional)"]
     },
     "2":{
         "nombre": "Pepian",
