@@ -16,6 +16,7 @@
           <div class="col-12 col-md-6">
             <h2 class="text-center">{{ index }}. {{ lugar.nombre }}</h2>
             <p align="justify">{{ lugar.descripcion }}</p>
+            <a class="btn btn-primary btn-sm float-left" :href="lugar.direccion" target=_blank>Como llegar aquí </a>
           </div>
           <!-- SLIDER  -->
           <div class="col-12 col-md-6">
@@ -24,8 +25,8 @@
               style="text-shadow: 0px 0px 2px #000"
               fade
               indicators
-              controls
-              img-width
+              controlwidths
+              img-
               img-height="300px"
             >
               <b-carousel-slide
@@ -66,6 +67,7 @@
           <div class="col-12 col-md-6">
             <h2 class="text-center">{{ index }}. {{ lugar.nombre }}</h2>
             <p align="justify">{{ lugar.descripcion }}</p>
+            <a class="btn btn-primary btn-sm float-right" :href="lugar.direccion" target=_blank> Como llegar aquí </a>
           </div>
         </div>
         <br />

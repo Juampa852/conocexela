@@ -5,7 +5,8 @@
         "imagenes": ["/imagenes-lugares/VolcanSantaMaria1.jpg",
             "/imagenes-lugares/VolcanSantaMaria2.jpg",
             "/imagenes-lugares/VolcanSantaMaria3.jpg",
-            "/imagenes-lugares/VolcanSantaMaria4.png"]
+            "/imagenes-lugares/VolcanSantaMaria4.png"],
+        "direccion": "https://goo.gl/maps/vRb15xYDJEmeNsSb8"
     },
     "2": {
         "nombre": "Parque a Centroamérica",
@@ -13,14 +14,17 @@
         "imagenes": ["/imagenes-lugares/ParqueCentral1.jpg",
             "/imagenes-lugares/ParqueCentral2.jpg",
             "/imagenes-lugares/ParqueCentral3.jpg",
-            "/imagenes-lugares/ParqueCentral4.jpg"]
+            "/imagenes-lugares/ParqueCentral4.jpg"],
+        "direccion": "https://goo.gl/maps/NzFzdS5dLXXSTmbdA"
     },
     "3": {
         "nombre": "Cerro El Baúl",
         "descripcion": "Constituye el pulmón urbano de la ciudad, el cual ha sido tradicionalmente un centro de recreación familiar. Puede subirse desde el departamento de Quetzaltenango ya sea a pie, en carro o bicicleta. Podrá observarse el casco urbano rodeado de pura naturaleza.",
         "imagenes": ["/imagenes-lugares/ElBaul1.jpg",
             "/imagenes-lugares/ElBaul2.jpg",
-            "/imagenes-lugares/ElBaul3.jpg"]
+            "/imagenes-lugares/ElBaul3.jpg"],
+        "direccion": "https://goo.gl/maps/NzFzdS5dLXXSTmbdA"
+            
     },
     "4":{
         "nombre": "Teatro Municipal",
@@ -28,7 +32,8 @@
         
         "imagenes": ["/imagenes-lugares/Teatro1.jpg",
             "/imagenes-lugares/Teatro2.jpg",
-            "/imagenes-lugares/Teatro3.jpg"]
+            "/imagenes-lugares/Teatro3.jpg"], 
+        "direccion": "https://goo.gl/maps/rHFK1QSV8xbHyiHeA"
     },
     "5": {
         "nombre": "Catedral del Espíritu Santo",
@@ -36,7 +41,8 @@
         
         "imagenes": ["/imagenes-lugares/Catedral1.jpg",
             "/imagenes-lugares/Catedral2.jpg",
-            "/imagenes-lugares/Catedral3.jpg"]
+            "/imagenes-lugares/Catedral3.jpg"],
+        "direccion": "https://goo.gl/maps/UfbTdNboS2qFWx3G6"
     },
     "6": {
         "nombre": "Templo a Minerva",
@@ -44,7 +50,8 @@
         
         "imagenes": ["/imagenes-lugares/TemploMinerva1.PNG",
             "/imagenes-lugares/TemploMinerva2.PNG",
-            "/imagenes-lugares/TemploMinerva3.PNG"]
+            "/imagenes-lugares/TemploMinerva3.PNG"],
+        "direccion": "https://goo.gl/maps/WnNpMHbVqJFJTpQw6"   
     },
     "7": {
         "nombre": "Parque Zoológico Minerva",
@@ -52,7 +59,8 @@
         
         "imagenes": ["/imagenes-lugares/Zoologico1.jpg",
             "/imagenes-lugares/Zoologico2.jpg",
-            "/imagenes-lugares/Zoologico3.jpg"]
+            "/imagenes-lugares/Zoologico3.jpg"],
+        "direccion": "https://goo.gl/maps/CHthWT9rmgbesz926"   
     },
     "8": {
         "nombre": "Monumento a Tecún Umán",
@@ -60,7 +68,8 @@
         
         "imagenes": ["/imagenes-lugares/TecunUman1.jpg",
             "/imagenes-lugares/TecunUman2.jpg",
-            "/imagenes-lugares/TecunUman3.jpg"]
+            "/imagenes-lugares/TecunUman3.jpg"],
+        "direccion": "https://goo.gl/maps/m3tLzYZ1CLgHtCVw7"            
     },
     "9": {
         "nombre": "Monumento a la Marimba",
@@ -68,7 +77,8 @@
         
         "imagenes": ["/imagenes-lugares/Marimba1.jpg",
             "/imagenes-lugares/Marimba2.jpg",
-            "/imagenes-lugares/Marimba3.jpg"]
+            "/imagenes-lugares/Marimba3.jpg"],
+        "direccion": "https://goo.gl/maps/zjb3kSYhA7gs6Pa88"    
     },
     "10": {
         "nombre": "Museo del Ferrocarril de Los Altos",
@@ -76,7 +86,8 @@
         
         "imagenes": ["/imagenes-lugares/Ferrocarril1.jpg",
             "/imagenes-lugares/Ferrocarril2.jpg",
-            "/imagenes-lugares/Ferrocarril3.jpg"]
+            "/imagenes-lugares/Ferrocarril3.jpg"],
+        "direccion": "https://goo.gl/maps/LvoZywriLm7zP8ij9"    
     },
     "11": {
         "nombre": "Ermita de la Concepción - Salcajá",
@@ -84,7 +95,8 @@
         
         "imagenes": ["/imagenes-lugares/Ermita1.jpg",
             "/imagenes-lugares/Ermita2.jpg",
-            "/imagenes-lugares/Ermita3.jpg"]
+            "/imagenes-lugares/Ermita3.jpg"],
+        "direccion": "https://goo.gl/maps/7mUttuF4QiCvvpPGA"
     },
     "12": {
         "nombre": "Fuentes Georginas - Zunil",
@@ -92,7 +104,8 @@
         
         "imagenes": ["/imagenes-lugares/Georginas1.jpg",
             "/imagenes-lugares/Georginas2.jpg",
-            "/imagenes-lugares/Georginas3.jpg"]
+            "/imagenes-lugares/Georginas3.jpg"],
+        "direccion": "https://goo.gl/maps/3n8E52uyBVcm5U6F8" 
     },
     "13": {
         "nombre": "Laguna de Chicabal - San Martín Sacatepéquez",
@@ -100,7 +113,8 @@
         
         "imagenes": ["/imagenes-lugares/Chicabal1.jpg",
             "/imagenes-lugares/Chicabal2.jpg",
-            "/imagenes-lugares/Chicabal3.jpg"]
+            "/imagenes-lugares/Chicabal3.jpg"],
+        "direccion": "https://goo.gl/maps/MwTjCFC6MQgBvmdy8"    
     },
     "14": {
         "nombre": "Las Cumbres ECO-Sauna - Zunil",
@@ -109,7 +123,8 @@
         "imagenes": ["/imagenes-lugares/Cumbres1.jpg",
             "/imagenes-lugares/Cumbres2.jpg",
             "/imagenes-lugares/Cumbres3.jpg",
-            "/imagenes-lugares/Cumbres4.jpg"]
+            "/imagenes-lugares/Cumbres4.jpg"],
+        "direccion": "https://goo.gl/maps/PJEFhNH3NpymFJhi8"
     },
     "15": {
         "nombre": "La Laguneta - Salcajá",
@@ -117,6 +132,7 @@
         
         "imagenes": ["/imagenes-lugares/Laguneta1.jpg",
             "/imagenes-lugares/Laguneta2.jpg",
-            "/imagenes-lugares/Laguneta3.jpg"]
+            "/imagenes-lugares/Laguneta3.jpg"],
+        "direccion": "https://goo.gl/maps/RbM4oBWRTu4Q792N7"
     }
 }
