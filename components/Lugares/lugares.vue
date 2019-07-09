@@ -36,6 +36,8 @@
                 />
               </b-carousel>
             </div>
+            <!-- UBICACIÓN -->
+            <a class="col-2 offset-5 offset-md-2 btn rounded-pill outline llegar" :href="lugares[(numero*perPage)-perPage-1+i].direccion" target="_blank">Cómo llegar</a>
           </div>
           <br />
           <br />
@@ -68,12 +70,8 @@
               <p align="justify">{{ lugares[(numero*perPage)-perPage-1+i].descripcion }}</p>
             </div>
           </div>
-          <!-- TEXTO -->
-          <div class="col-12 col-md-6">
-            <h2 class="text-center">{{ index }}. {{ lugar.nombre }}</h2>
-            <p align="justify">{{ lugar.descripcion }}</p>
-            <a class="btn btn-primary btn-sm float-right" :href="lugar.direccion" target=_blank> Como llegar aquí </a>
-          </div>
+          <!-- UBICACIÓN -->
+          <a class="col-2 offset-5 offset-md-8 btn rounded-pill outline llegar" :href="lugares[(numero*perPage)-perPage-1+i].direccion" target="_blank">Cómo llegar</a>
           <br />
           <br />
         </div>
@@ -102,6 +100,10 @@ export default {
 </script>
 
 <style>
+#divlugares {
+  /* background-color: #f4f6f8; */
+}
+
 b-carousel {
   height: 300px;
 }
@@ -109,5 +111,19 @@ b-carousel {
 .imagen {
   width: 100%;
   height: 300px;
+}
+
+a.llegar, a.llegar:visited{
+  border-style: solid;
+  color: #f70a0a;
+  border-color: #f70a0a;
+  outline-color: #f70a0a;
+}
+
+a.llegar:hover {
+  background-color: #f70a0a;
+  color: #ffffff;
+  border-style: solid;
+  border-color: #ffffff
 }
 </style>
