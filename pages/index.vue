@@ -1,18 +1,18 @@
 <template>
   <section>
     <Header />
-    <PaginaPrincipal />
+    <Principal />
     <Footer />
   </section>
 </template>
 
 <script>
-import PaginaPrincipal from '~/components/Principal/PaginaPrincipal.vue'
+import Principal from '~/components/Principal/Principal.vue'
 import Header from '~/assets/header'
 import Footer from '~/assets/footer.vue'
 export default {
   components: {
-    PaginaPrincipal,
+    Principal,
     Header,
     Footer
   }

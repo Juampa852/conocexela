@@ -109,7 +109,7 @@
       </div>
 
       <div
-        class="row Content_Field_right my-auto"
+        class="row Content_Field_right"
         data-aos="zoom-in-left"
         data-aos-duration="4000000"
       >
