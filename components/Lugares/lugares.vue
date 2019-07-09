@@ -11,7 +11,7 @@
       <div v-for="i in perPage" :key="i">
         <!-- ALINEADO A LA IZQUIERDA -->
         <div v-if="i % 2 === 1">
-          <div class="row">
+          <div class="row" data-aos="zoom-in-left" data-aos-duration="4000000">
             <!-- TEXTO -->
             <div class="col-12 col-md-6">
               <h2 class="text-center">{{ ((numero-1)*perPage) + i }}. {{ lugares[(numero*perPage)-perPage-1+i].nombre }}</h2>
@@ -42,7 +42,7 @@
         </div>
         <!-- ALINEADO A LA DERECHA -->
         <div v-else>
-          <div class="row">
+          <div class="row" data-aos="slide-right" data-aos-duration="4000000">
             <!-- SLIDER  -->
             <div class="col-12 col-md-6">
               <b-carousel
