@@ -68,6 +68,12 @@
               <p align="justify">{{ lugares[(numero*perPage)-perPage-1+i].descripcion }}</p>
             </div>
           </div>
+          <!-- TEXTO -->
+          <div class="col-12 col-md-6">
+            <h2 class="text-center">{{ index }}. {{ lugar.nombre }}</h2>
+            <p align="justify">{{ lugar.descripcion }}</p>
+            <a class="btn btn-primary btn-sm float-right" :href="lugar.direccion" target=_blank> Como llegar aquí </a>
+          </div>
           <br />
           <br />
         </div>
