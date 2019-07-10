@@ -21,9 +21,9 @@
               </b-carousel>
 
               <div class="card-body">
-                <h5 class="card-title">
+                <h4 class="card-title">
                   {{ comida.nombre }}
-                </h5>
+                </h4>
                 <p class="card-text" Align="Justify">
                   {{ comida.descripcion }}
                 </p>
