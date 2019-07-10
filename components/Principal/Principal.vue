@@ -3,6 +3,8 @@
     <body>
     <div class="Field">
       <!--Carousel-->
+      <!-- Carousel en modo pantallas grandes (TV o Laptop) -->
+      <div v-if="!mobile">
       <b-carousel
         id="carousel-1"
         class="Field__carousel"
@@ -90,11 +92,102 @@
           <h1>La cima del vigilante dormido eternamente...</h1>
         </b-carousel-slide>
       </b-carousel>
+      </div>
+      <!-- Carousel en modo pantallas pequeñas (celulares) -->
+      <div v-else>
+        <b-carousel
+        id="carousel-1"
+        class="Field__carousel-small"
+        v-model="slide"
+        :interval="3000"
+        controls
+        indicators
+        background="#ababab"
+        img-width="1024;"
+        img-height="500;"
+        style="text-shadow: 1px 1px 2px #333;"
+        @sliding-start="onSlideStart"
+        @sliding-end="onSlideEnd"
+      >
+      <b-carousel-slide class="Field__slide" img-src="/main_images/Slider/_DSC0840.JPG">
+          <h1>Nuestra gente y sus tradiciones...</h1>
+        </b-carousel-slide>
+
+        <b-carousel-slide
+          class="Field__slide"
+          img-src="https://aprende.guatemala.com/wp-content/uploads/2017/08/Xela.jpg"
+        >
+          <h1>¡Arquitectura única!</h1>
+        </b-carousel-slide>
+
+        <b-carousel-slide class="Field__slide" img-src="/main_images/Slider/CerroelBaul.jpg">
+          <h1>¡Paisajes siniguales!</h1>
+        </b-carousel-slide>
+
+        <b-carousel-slide class="Field__slide" img-src="/main_images/Slider/xela.jpg">
+          <h1>¡Vida Nocturna!</h1>
+        </b-carousel-slide>
+
+        <b-carousel-slide class="Field__slide" img-src="/main_images/Slider/catedral.jpeg">
+          <h1>¡Centro de Fe!</h1>
+        </b-carousel-slide>
+        <b-carousel-slide class="Field__slide" img-src="/main_images/Slider/comidas.jpg">
+          <h1>¡Encántate por las Shecas!</h1>
+        </b-carousel-slide>
+
+        <b-carousel-slide class="Field__slide" img-src="/main_images/Slider/dulces.jpg">
+          <h1>¡Endúlzate la vida con sus dulces!</h1>
+        </b-carousel-slide>
+        <b-carousel-slide class="Field__slide" img-src="/main_images/Slider/Eloteslocos.jpg">
+          <h1>¡Alócate por los elotes!</h1>
+        </b-carousel-slide>
+
+        <b-carousel-slide class="Field__slide" img-src="/main_images/Slider/fuentes.jpg">
+          <h1>¡Relájate con sus aguas termales!</h1>
+        </b-carousel-slide>
+
+        <b-carousel-slide class="Field__slide" img-src="/main_images/Slider/Lagunachicabal.jpg">
+          <h1>¡Vive el misticismo del Volcán-Laguna!</h1>
+        </b-carousel-slide>
+
+        <b-carousel-slide class="Field__slide" img-src="/main_images/Slider/parque.jpg">
+          <h1>¡Llénate de paz en las tardes quetzaltecas!</h1>
+        </b-carousel-slide>
+
+        <b-carousel-slide class="Field__slide" img-src="/main_images/Slider/procesion.jpg">
+          <h1>Encuéntrate de nuevo...</h1>
+        </b-carousel-slide>
+
+        <b-carousel-slide class="Field__slide" img-src="/main_images/Slider/volcano.jpg">
+          <h1>Valles y vistas increíbles...</h1>
+        </b-carousel-slide>
+
+        <b-carousel-slide class="Field__slide" img-src="/main_images/Slider/Quetzaltenango.jpg">
+          <h1>Por si te quedas con hambre...</h1>
+        </b-carousel-slide>
+
+        <b-carousel-slide class="Field__slide" img-src="/main_images/Slider/Santa.jpg">
+          <h1>Los vigilantes de Quetzaltenango...</h1>
+        </b-carousel-slide>
+
+        <b-carousel-slide class="Field__slide" img-src="/main_images/Slider/siembra.jpg">
+          <h1>Campos fértiles y bondadosos...</h1>
+        </b-carousel-slide>
+
+        <b-carousel-slide class="Field__slide" img-src="/main_images/Slider/teatro.jpg">
+          <h1>¡La Cuna de la Cultura Hispanoamericana!</h1>
+        </b-carousel-slide>
+
+        <b-carousel-slide class="Field__slide" img-src="/main_images/Slider/volcan2.jpg">
+          <h1>La cima del vigilante dormido eternamente...</h1>
+        </b-carousel-slide>
+      </b-carousel>
+      </div>
     </div>
     <!-- Comidas -->
     <div id="comidas" class="comidas">
       <div class="container">
-        <h1 class="text-center p-5">Comidas Típicas</h1>
+        <h1 class="text-center p-5">ConoceXela</h1>
         <div class="row Content_Field">
           <div v-for="(comida, index) in comidas" :key="index" class="col-12 col-md-12">
             <div v-if="index % 2 === 1">
@@ -131,13 +224,14 @@
 </template>
 
 <script>
-import JSONcomidas from './comidas.json'
+import JSONcomidas from './principal.json'
 export default {
   data() {
     return {
       comidas: JSONcomidas,
       slide: 0,
-      sliding: null
+      sliding: null,
+      mobile: null
     }
   },
   methods: {
@@ -146,6 +240,13 @@ export default {
     },
     onSlideEnd(slide) {
       this.sliding = false
+    }
+  },
+  mounted() {
+    if (screen.width < 800) {
+      this.mobile = true
+    } else {
+      this.mobile = false
     }
   }
 }
@@ -165,7 +266,7 @@ b-carousel {
   width: 100% !important;
 }
 .Field__carousel-small {
-  height: 85% !important;
+  height: 50% !important;
   width: 100% !important;
 }
 .imagen {
