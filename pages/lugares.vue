@@ -1,6 +1,20 @@
 <template>
   <section>
     <Header />
+    <div class="text-center">
+      <br>
+      <h1>Lugares Turísticos</h1>
+      <br />
+      <hr />
+    </div>
+    <b-pagination
+      v-model="currentPage"
+      align="center"
+      :total-rows="rows"
+      :per-page="perPage"
+      prev-text="Anterior"
+      next-text="Siguiente"
+    ></b-pagination>
     <Lugares :numero="currentPage" />
     <b-pagination
       v-model="currentPage"

@@ -1,11 +1,6 @@
 <template>
   <body>
     <div id="divlugares" class="container">
-      <div class="text-center">
-        <h1>Lugares Turísticos</h1>
-      </div>
-      <br />
-      <hr />
       <br />
       <!-- CICLO PARA MOSTRAR TODOS LOS LUGARES -->
       <div v-for="i in perPage" :key="i">
