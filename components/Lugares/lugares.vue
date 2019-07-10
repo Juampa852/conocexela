@@ -44,7 +44,6 @@
                   <gmap-map :center="lugares[(numero*perPage)-perPage-1+i].coordenada" :map-type-id="mapTypeId" :zoom="18">
                     <gmap-marker
                       :position="lugares[(numero*perPage)-perPage-1+i].coordenada"
-                      @click="center = item.position"
                     />
                   </gmap-map>
                 </b-card>
@@ -90,7 +89,6 @@
                 <gmap-map :center="lugares[(numero*perPage)-perPage-1+i].coordenada" :map-type-id="mapTypeId" :zoom="18">
                   <gmap-marker
                     :position="lugares[(numero*perPage)-perPage-1+i].coordenada"
-                    @click="center = item.position"
                   />
                 </gmap-map>
               </b-card>
@@ -118,12 +116,7 @@ export default {
     return {
       lugares: JSONlugares,
       perPage: 5,
-      center: { lat: -3.350235, lng: 111.995865 },
-      mapTypeId: 'terrain',
-      markers: [
-        { position: { lat: -0.48585, lng: 117.1466 } },
-        { position: { lat: -6.9127778, lng: 107.6205556 } }
-      ]
+      mapTypeId: 'terrain'
     }
   }
 }
