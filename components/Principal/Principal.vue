@@ -1,5 +1,4 @@
 <template>
-  <section>
     <body>
     <div class="Field">
       <!--Carousel-->
@@ -191,25 +190,33 @@
         <div class="row Content_Field">
           <div v-for="(comida, index) in comidas" :key="index" class="col-12 col-md-12">
             <div v-if="index % 2 === 1">
-              <div class="Content_Field" data-aos="zoom-in-left" data-aos-duration="4000000">
+              <div class="Content_Field_1" data-aos="zoom-in-left" data-aos-duration="4000000">
                 <div class="card-body">
                   <p class="card-text" align="Justify">{{ comida.descripcion }}</p>
                 </div>
-                <div class="card imagen-container">
-                <div v-for="(imagen,index) in comida.imagenes" :key="index">
-                  <img :src="imagen" class="card-img-top imagen" />
-                </div>
-              </div>
+                    <div class="card imagen-container-blue">
+                      <div v-for="(imagen,index) in comida.imagenes" :key="index">
+                        <parallax-container class="horizontal-card centered-card">
+                          <parallax-element class="background-image" :parallaxStrength="-10" :type="'depth'">
+                            <img :src="imagen" class="card-img-top imagen" />
+                          </parallax-element>
+                        </parallax-container>
+                      </div>
+                    </div>
               </div>
             </div>
             <div v-else>
-              <div class="Content_Field_right" data-aos="fade-down-left" data-aos-duration="4000000">
+              <div class="Content_Field_2" data-aos="fade-down-left" data-aos-duration="4000000">
                 <div class="card-body">
                   <p class="card-text" align="Justify">{{ comida.descripcion }}</p>
                 </div>
                 <div class="card imagen-container-red">
                 <div v-for="(imagen,index) in comida.imagenes" :key="index">
-                  <img :src="imagen" class="card-img-top imagen" />
+                  <parallax-container class="horizontal-card centered-card">
+                      <parallax-element class="background-image" :parallaxStrength="-10" :type="'depth'">
+                          <img :src="imagen" class="card-img-top imagen" />
+                      </parallax-element>
+                    </parallax-container>
                 </div>
               </div>
             </div>
@@ -220,7 +227,6 @@
       </div>
     </div>
     </body>
-  </section>
 </template>
 
 <script>
@@ -257,6 +263,13 @@ export default {
 b-carousel {
   height: 250px;
 }
+.card-body{
+    color: black;
+    font-weight: 900;
+}
+h1{
+  color: white;
+}
 .Field .Field__slide {
   height: 85vh;
   width: 100%;
@@ -279,28 +292,35 @@ b-carousel {
   height: 100%;
   min-width: 250px;
 }
-.imagen-container {
-  text-align: center !important;
-  background-color: #ebe9f7;
-  background: linear-gradient(#ebe9f7, #ffffff);
-  box-shadow: inset 0 0 15px 10px #ffffff;
-}
 .imagen-container-red {
   text-align: center !important;
-  background-color: #f7e9eb;
-  background: linear-gradient(#f7e9eb, #ffffff);
-  box-shadow: inset 0 0 15px 10px #ffffff;
+  background-color: rgb(0,0,0,0);
+}
+.imagen-container-blue {
+  text-align: center !important;
+  background-color: rgb(0,0,0,0);
 }
 .Content_Field {
   border-color: #1d05ad;
   background-color: #ebe9f7;
-  background: linear-gradient(#ebe9f7, #ffffff);
-  box-shadow: inset 0 0 15px 10px #ffffff;
+  background-color: rgb(0,0,0,0);
 }
-.Content_Field_right {
-  border-color: #b51029;
+.Content_Field_1 {
   background-color: #f7e9eb;
-  background: linear-gradient(#f7e9eb, #ffffff);
-  box-shadow: inset 0 0 15px 10px #ffffff;
+  background-color: rgba(246, 246, 248, 0.6);
+  box-shadow: inset 0 0 30px 1px #8b83f1c0;
+  border-radius: 15px;
 }
+.Content_Field_2 {
+  background-color: #f7e9eb;
+  background-color: rgba(246, 246, 248, 0.6);
+  box-shadow: inset 0 0 30px 1px #f19999a8;
+  border-radius: 15px;
+}
+  body{
+    background-image: url(/fondo8.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+  }
 </style>

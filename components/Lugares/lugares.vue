@@ -122,6 +122,17 @@ export default {
   /* background-color: #f4f6f8; */
 }
 
+h1, h2, p{
+  color: white;
+}
+
+hr, .hrcolor {
+   height: 0.5px;
+   border: 0;
+   color: #666;
+   background-color:rgb(51, 48, 18);
+}
+
 b-carousel {
   height: 300px;
 }
@@ -148,5 +159,12 @@ a.llegar:hover {
 .vue-map-container {
   height: 300px;
   width: 100%;
+}
+
+body{
+  background-image: url(/fondo10.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
 }
 </style>

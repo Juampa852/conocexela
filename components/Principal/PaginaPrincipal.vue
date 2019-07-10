@@ -16,9 +16,9 @@
         @sliding-start="onSlideStart"
         @sliding-end="onSlideEnd"
       >
-        <b-carousel-slide class="Field__slide" img-src="/main_images/Slider/_DSC0840.JPG">
+      <b-carousel-slide class="Field__slide" img-src='/main_images/Slider/_DSC0840.JPG'>
           <h1>Nuestra gente y sus tradiciones...</h1>
-        </b-carousel-slide>
+      </b-carousel-slide>
 
         <b-carousel-slide
           class="Field__slide"
@@ -94,7 +94,14 @@
     <div id="main" class="Content">
       <div class="row Content_Field" data-aos="zoom-in-left" data-aos-duration="4000000">
         <div class="col-12 col-md-2">
-          <img class="image" src="/main_images/Principal/asdf" width="300vh" height="200vh" />
+          <parallax-container class="horizontal-card centered-card">
+            <parallax-element class="text-container" :parallaxStrength="10" :type="'depth'">
+              <h2>'rotation'</h2>
+            </parallax-element>
+            <parallax-element class="background-image" :parallaxStrength="-10" :type="'depth'">
+              <img src="/main_images/Principal/asdf" width="300vh" height="200vh" />
+            </parallax-element>
+          </parallax-container>
         </div>
         <div class="col-12 col-md-10">
           <p class="paragraph" align="justify">
@@ -302,6 +309,9 @@
 </template>
 
 <script>
+import Vue from 'vue'
+import VueMouseParallax from 'vue-mouse-parallax'
+Vue.use(VueMouseParallax)
 export default {
   data() {
     return {
