@@ -31,7 +31,7 @@
 <script>
 import Vue from 'vue'
 import VueMouseParallax from 'vue-mouse-parallax'
-import PaginaPrincipal from '~/components/Lugares/lugares.vue'
+import Lugares from '~/components/Lugares/lugares.vue'
 import Header from '~/assets/header'
 import Footer from '~/assets/footer.vue'
 Vue.use(VueMouseParallax)
