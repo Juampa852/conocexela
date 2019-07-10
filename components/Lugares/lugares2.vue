@@ -10,15 +10,18 @@
       <!-- CICLO PARA MOSTRAR TODOS LOS LUGARES -->
       <div v-for="i in perPage" :key="i">
         <!-- ALINEADO A LA IZQUIERDA -->
-        <div v-if="i % 2 === 1">
-          <div class="row" data-aos="zoom-in-left" data-aos-duration="4000000">
+        <b-card v-if="i % 2 === 1" no-body bg-variant="light" data-aos="zoom-in-left" data-aos-duration="4000000">
+          <b-row>
             <!-- TEXTO -->
-            <div class="col-12 col-md-6">
-              <h2 class="text-center">{{ ((numero-1)*perPage) + i }}. {{ lugares[(numero*perPage)-perPage-1+i].nombre }}</h2>
-              <p align="justify">{{ lugares[(numero*perPage)-perPage-1+i].descripcion }}</p>
-            </div>
-            <!-- SLIDER  -->
-            <div class="col-12 col-md-6">
+            <b-col xs="12" md="6">
+              <b-card-body :title="lugares[(numero*perPage)-perPage-1+i].nombre" align="center">
+                <b-card-text align="justify">
+                  {{ lugares[(numero*perPage)-perPage-1+i].descripcion }}
+                </b-card-text>
+              </b-card-body>
+            </b-col>
+            <!-- SLIDER -->
+            <b-col xs="12" md="6">
               <b-carousel
                 id="carousel-fade"
                 style="text-shadow: 0px 0px 2px #000"
@@ -35,11 +38,11 @@
                   class="imagen"
                 />
               </b-carousel>
-            </div>
+            </b-col>
             <!-- UBICACIÓN -->
-            <div id="ubicacion" class="col-12">
-              <b-button v-b-toggle="'collapse-'+i" variant="outline-danger" pill class="offset-3 offset-sm-4 offset-md-2 llegar">Ver Ubicación</b-button>
-              <b-collapse :id="'collapse-'+i" class="mt-2 col-12">
+            <b-col xs="12">
+              <b-button v-b-toggle="'collapse'" variant="outline-danger" pill class="offset-4 offset-md-2 llegar">Ver Ubicación</b-button>
+              <b-collapse id="collapse" class="mt-2 col-12">
                 <b-card>
                   <gmap-map :center="lugares[(numero*perPage)-perPage-1+i].coordenada" :map-type-id="mapTypeId" :zoom="18">
                     <gmap-marker
@@ -49,16 +52,14 @@
                   </gmap-map>
                 </b-card>
               </b-collapse>
-            </div>
-          </div>
-          <br />
-          <br />
-        </div>
+            </b-col>
+          </b-row>
+        </b-card>
         <!-- ALINEADO A LA DERECHA -->
-        <div v-else>
-          <div class="row" data-aos="slide-right" data-aos-duration="4000000">
-            <!-- SLIDER  -->
-            <div class="col-12 col-md-6">
+        <b-card v-else no-body bg-variant="light" data-aos="slide-right" data-aos-duration="4000000">
+          <b-row>
+            <!-- SLIDER -->
+            <b-col xs="12" md="6">
               <b-carousel
                 id="carousel-fade"
                 style="text-shadow: 0px 0px 2px #000"
@@ -75,34 +76,38 @@
                   class="imagen"
                 />
               </b-carousel>
-            </div>
+            </b-col>
             <!-- TEXTO -->
-            <div class="col-12 col-md-6">
-              <h2 class="text-center">{{ ((numero-1)*perPage) + i }}. {{ lugares[(numero*perPage)-perPage-1+i].nombre }}</h2>
-              <p align="justify">{{ lugares[(numero*perPage)-perPage-1+i].descripcion }}</p>
-            </div>
-          </div>
-          <!-- UBICACIÓN -->
-          <div id="ubicacion" class="col-12">
-            <b-button v-b-toggle="'collapse-'+i" variant="outline-danger" pill class="offset-3 offset-sm-4 offset-md-8 llegar">Ver Ubicación</b-button>
-            <b-collapse :id="'collapse-'+i" class="mt-2 col-12">
-              <b-card>
-                <gmap-map :center="lugares[(numero*perPage)-perPage-1+i].coordenada" :map-type-id="mapTypeId" :zoom="18">
-                  <gmap-marker
-                    :position="lugares[(numero*perPage)-perPage-1+i].coordenada"
-                    @click="center = item.position"
-                  />
-                </gmap-map>
-              </b-card>
-            </b-collapse>
-          </div>
+            <b-col xs="12" md="6">
+              <b-card-body :title="lugares[(numero*perPage)-perPage-1+i].nombre" align="center">
+                <b-card-text align="justify">
+                  {{ lugares[(numero*perPage)-perPage-1+i].descripcion }}
+                </b-card-text>
+              </b-card-body>
+            </b-col>
+            <!-- UBICACIÓN -->
+            <b-col xs="12">
+              <b-button v-b-toggle="'collapse'" variant="outline-danger" pill class="offset-4 offset-md-8 llegar">Ver Ubicación</b-button>
+              <b-collapse id="collapse" class="mt-2 col-12">
+                <b-card>
+                  <gmap-map :center="lugares[(numero*perPage)-perPage-1+i].coordenada" :map-type-id="mapTypeId" :zoom="18">
+                    <gmap-marker
+                      :position="lugares[(numero*perPage)-perPage-1+i].coordenada"
+                      @click="center = item.position"
+                    />
+                  </gmap-map>
+                </b-card>
+              </b-collapse>
+            </b-col>
+          </b-row>
           <br />
           <br />
-        </div>
+        </b-card>
       </div>
       <br />
       <hr />
       <br />
+    </div>
     </div>
   </body>
 </template>
