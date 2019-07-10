@@ -206,7 +206,7 @@
               </div>
             </div>
             <div v-else>
-              <div class="Content_Field_2" data-aos="fade-down-left" data-aos-duration="4000000">
+              <div class="Content_Field_2" data-aos="zoom-in-right" data-aos-duration="4000000">
                 <div class="card-body">
                   <p class="card-text" align="Justify">{{ comida.descripcion }}</p>
                 </div>

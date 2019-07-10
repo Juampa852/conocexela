@@ -6,7 +6,7 @@
       <div v-for="i in perPage" :key="i">
         <!-- ALINEADO A LA IZQUIERDA -->
         <div v-if="i % 2 === 1">
-          <div class="row" data-aos="zoom-in-left" data-aos-duration="4000000">
+          <div class="row " data-aos="zoom-in-left" data-aos-duration="4000000" style="background: rgba(0,0,0,0.5);">
             <!-- TEXTO -->
             <div class="col-12 col-md-6">
               <h2 class="text-center">{{ ((numero-1)*perPage) + i }}. {{ lugares[(numero*perPage)-perPage-1+i].nombre }}</h2>
@@ -14,6 +14,8 @@
             </div>
             <!-- SLIDER  -->
             <div class="col-12 col-md-6">
+              <parallax-container class="horizontal-card centered-card">
+              <parallax-element class="background-image" :parallaxStrength="-10" :type="'translation'">
               <b-carousel
                 id="carousel-fade"
                 style="text-shadow: 0px 0px 2px #000"
@@ -30,6 +32,8 @@
                   class="imagen"
                 />
               </b-carousel>
+              </parallax-element>
+              </parallax-container>
             </div>
             <!-- UBICACIÓN -->
             <div id="ubicacion" class="col-12">
@@ -50,9 +54,11 @@
         </div>
         <!-- ALINEADO A LA DERECHA -->
         <div v-else>
-          <div class="row" data-aos="slide-right" data-aos-duration="4000000">
+          <div class="row" data-aos="flip-up" data-aos-duration="4000000" style="background: rgba(0,0,0,0.5);">
             <!-- SLIDER  -->
             <div class="col-12 col-md-6">
+              <parallax-container class="horizontal-card centered-card">
+              <parallax-element class="background-image" :parallaxStrength="-10" :type="'translation'">
               <b-carousel
                 id="carousel-fade"
                 style="text-shadow: 0px 0px 2px #000"
@@ -69,25 +75,27 @@
                   class="imagen"
                 />
               </b-carousel>
+              </parallax-element>
+              </parallax-container>
             </div>
             <!-- TEXTO -->
             <div class="col-12 col-md-6">
               <h2 class="text-center">{{ ((numero-1)*perPage) + i }}. {{ lugares[(numero*perPage)-perPage-1+i].nombre }}</h2>
               <p align="justify">{{ lugares[(numero*perPage)-perPage-1+i].descripcion }}</p>
             </div>
-          </div>
-          <!-- UBICACIÓN -->
-          <div id="ubicacion" class="col-12">
-            <b-button v-b-toggle="'collapse-'+i" variant="outline-danger" pill class="offset-3 offset-sm-4 offset-md-8 llegar">Ver Ubicación</b-button>
-            <b-collapse :id="'collapse-'+i" class="mt-2 col-12">
-              <b-card>
-                <gmap-map :center="lugares[(numero*perPage)-perPage-1+i].coordenada" :map-type-id="mapTypeId" :zoom="18">
-                  <gmap-marker
-                    :position="lugares[(numero*perPage)-perPage-1+i].coordenada"
-                  />
-                </gmap-map>
-              </b-card>
-            </b-collapse>
+            <!-- UBICACIÓN -->
+            <div id="ubicacion" class="col-12">
+              <b-button v-b-toggle="'collapse-'+i" variant="outline-danger" pill class="offset-3 offset-sm-4 offset-md-8 llegar">Ver Ubicación</b-button>
+              <b-collapse :id="'collapse-'+i" class="mt-2 col-12">
+                <b-card>
+                  <gmap-map :center="lugares[(numero*perPage)-perPage-1+i].coordenada" :map-type-id="mapTypeId" :zoom="18">
+                    <gmap-marker
+                      :position="lugares[(numero*perPage)-perPage-1+i].coordenada"
+                    />
+                  </gmap-map>
+                </b-card>
+              </b-collapse>
+            </div>
           </div>
           <br />
           <br />
