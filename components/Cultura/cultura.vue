@@ -198,4 +198,10 @@ b-carousel {
   width: 90%;
   height: 200px;
 }
+body{
+  background-image: url(/fondo1.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+}
 </style>
