@@ -27,11 +27,19 @@
                 <p class="card-text" Align="Justify">
                   {{ comida.descripcion }}
                 </p>
-                <ul>
-                  <li v-for="ingrediente in comida.ingredientes" :key="ingrediente">
-                    {{ ingrediente }}
-                  </li>
-                </ul>
+                <div>
+                  <b-button v-b-toggle="'collapse-'+index" variant="outline-danger" pill class="ingredientes offset-md-2"> Ver ingredientes
+                  </b-button>
+                  <b-collapse :id="'collapse-'+index">
+                    <br>
+                    <h5>Ingredientes</h5>
+                    <ul>
+                      <li v-for="ingrediente in comida.ingredientes" :key="ingrediente">
+                        {{ ingrediente }}
+                      </li>
+                    </ul>
+                  </b-collapse>
+                </div>
               </div>
             </div>
             <br>
@@ -63,5 +71,8 @@ export default {
   .imagen {
     width: 100%;
     height: 250px;
+  }
+  body {
+    background-color: #dfdfdf;
   }
 </style>
