@@ -1,0 +1,66 @@
+{
+    "1": {
+        "nombre": "Jocon",
+        "descripcion": "It is made up of Spanish Creole chicken meat or chicken with traditional country sauces. The word jocón originates from the quiché jok om and means green message for its original ingredients such as: the miltomate, green tomato. Onion with stems, cilantro and chili.",
+        "imagenes": ["/imagenes-comidas/jocon.jpg",
+        "/imagenes-comidas/jocon-2.jpg",
+        "/imagenes-comidas/jocon-3.jpg"]
+    },
+    "2":{
+        "nombre": "Pepian",
+        "descripcion": "The pepian is a traditional Guatemalan stew of Kaqchikel origin. Its origin is pre-Hispanic and served in Mayan religious ceremonies. It can be meat, pork, chicken or a mixture between them.",
+        "imagenes": ["/imagenes-comidas/pepian.jpg",
+        "/imagenes-comidas/pepian-2.jpg",
+        "/imagenes-comidas/pepian-3.jpg"]
+    },
+    "3":{
+        "nombre": "Chicken soup",
+        "descripcion":"Known as a home remedy against colds, chicken broth is one of the most popular dishes in Guatemalan homes. The recipe, originally from Spain, arrived in Guatemala in colonial times, and through time has been modified and adapted in each region of the country.",
+        "imagenes": ["/imagenes-comidas/caldo-de-pollo.jpg",
+        "/imagenes-comidas/caldo-de-pollo-2.jpg",
+        "/imagenes-comidas/caldo-de-pollo-3.jpg"]
+    },
+    "4":{
+        "nombre": "Panza broth",
+        "descripcion":"One of the ingredients that many Guatemalans love their dishes is the beef belly. It has a high nutritional value and flavor, therefore, prepare it in broth you will love it.",
+        "imagenes": ["/imagenes-comidas/caldo-de-panza.jpg",
+        "/imagenes-comidas/caldo-de-panza-2.jpg",
+        "/imagenes-comidas/caldo-de-panza-3.jpg"]
+    },
+    "5":{
+        "nombre": "Chipilín Tamalitos",
+        "descripcion":"The chipilín tamalitos can not be missing in any Guatemalan home, where they are served in different presentations but the taste is unique and exquisite. Normally, they are accompanied by red sauce, parsley and hard cheese.",
+        "imagenes": ["/imagenes-comidas/chipilin.jpg",
+        "/imagenes-comidas/chipilin-2.jpg",
+        "/imagenes-comidas/chipilin-3.jpg"]
+    },
+    "6":{
+        "nombre": "Chuchitos",
+        "descripcion":"Chuchito is a national dish, traditional and emblematic of Guatemalan cuisine, made from corn dough, and usually mixed with a snack or tomato sauce and a filling that can be beef or pork. This chuchito is usually accompanied by a tomato sauce and sprinkled with hard cheese.",
+        "imagenes": ["/imagenes-comidas/chuchitos.jpg",
+        "/imagenes-comidas/chuchitos-2.jpg",
+        "/imagenes-comidas/chuchitos-3.jpg"]
+    },
+    "7":{
+        "nombre": "Elote Atol",
+        "descripcion":"The Elote Atol is an ancestral drink, made with corn and with a unique and exquisite flavor. For the Mayans, corn was a sacred food, consumed in various ceremonies, but was also consumed as food daily.",
+        "imagenes": ["/imagenes-comidas/atol-de-elote.jpg",
+        "/imagenes-comidas/atol-de-elote-2.jpg",
+        "/imagenes-comidas/atol-de-elote-3.jpg"]
+    },
+    "8":{
+        "nombre": "Fruit Broth",
+        "descripcion":"The fruit broth is a very famous drink and is made with fruits with a touch of liquor. With various fruits, water, sugar and a little brandy, this is a very good drink that is normally consumed in times of heat.",
+        "imagenes": ["/imagenes-comidas/caldo-de-frutas.jpg",
+        "/imagenes-comidas/caldo-de-frutas-2.jpg",
+        "/imagenes-comidas/caldo-de-frutas-3.jpg"]
+    },
+    "9":{
+        "nombre": "Shecas",
+        "descripcion":"Shecas are sweet breads that are made in the department of Quetzaltenango. Its main ingredient is anise, which gives it a unique aroma. It is customary to eat them accompanied by a cup of coffee or chocolate.",
+        "imagenes": ["/imagenes-comidas/shecas.jpg",
+        "/imagenes-comidas/shecas-2.jpg",
+        "/imagenes-comidas/shecas-3.jpg"]
+    }
+
+}
