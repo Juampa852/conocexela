@@ -1,6 +1,6 @@
 FROM node:10
-LABEL maintainer="Mariano"
-LABEL version="1.0"
+LABEL maintainer="DevTeam"
+LABEL version="1.1"
 # create destination directory
 RUN mkdir -p /usr/src/nuxt-app
 WORKDIR /usr/src/nuxt-app

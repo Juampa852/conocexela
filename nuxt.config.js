@@ -2,16 +2,21 @@ export default {
   mode: 'universal',
   /*
    ** Headers of the page
+    Original: <process.env.npm_package_description || ''> en contentent de description y en Title
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'ConoceXela - Encántate por la ciudad de Quetzaltenango',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1' },
+      { name: 'og:url', content: 'http://conocexela.info' },
+      { name: 'og:title', content: 'ConoceXela - Encántate por la ciudad de Quetzaltenango' },
+      { name: 'og:locale', content: 'es_ES' },
+      { name: 'og:site_name', content: 'ConoceXela' },
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
+        content: 'Dar a conocer información sobre Quetzaltenango, Guatemala (Xela) a las personas locales y turistas interesados'
       }
     ],
     link: [
@@ -45,8 +50,26 @@ export default {
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/sitemap'
   ],
+  sitemap: {
+    hostname: 'https://conocexela.info',
+    path: '/sitemap.xml',
+    generate: false,
+    defaults: {
+      changefreq: 'monthly',
+      priority: 1,
+      lastmod: new Date(),
+      lastmodrealtime: true
+    },
+    routes: [
+      '/',
+      '/lugares',
+      '/cultura',
+      '/comida'
+    ]
+  },
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
