@@ -170,7 +170,7 @@ a.llegar:hover {
 }
 
 body{
-  background-image: url(/fondo10.jpg);
+  background-image: url(/fondo2.jpg);
   background-repeat:no-repeat;
   background-size:cover;
   background-attachment: fixed;

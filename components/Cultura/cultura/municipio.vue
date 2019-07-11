@@ -1,10 +1,10 @@
 <template>
   <body>
-    <div class="container">
-      <div class="text-center">
+    <div id="cultura" class="container">
+      <div class="text-center p-5">
         <h1>Cultura</h1>
+        <hr>
       </div>
-      <br>
        <b-pagination
         align="center"
         v-model="actual"
@@ -42,3 +42,15 @@ export default {
   }
 }
 </script>
+<style>
+  h1{
+    color: white
+  }
+
+  body{
+    background-image: url(/fondo.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+</style>
