@@ -11,7 +11,7 @@
     <div class="text-center">
       <div v-for="(tradicion, index) in municipios[id].tradiciones" :key="index">
         <div v-if="index % 2 === 0">
-          <div class="row">
+          <div class="row roww">
             <!-- Conteido texto -->
             <div class="col-12 col-md-6">
               <h3 class="text-center">
@@ -29,6 +29,8 @@
             </div>
             <!-- SLIDER  DERECHA-->
             <div v-else class="col-12 col-md-6">
+              <parallax-container class="horizontal-card centered-card">
+              <parallax-element class="background-image" :parallaxStrength="-10" :type="'depth'">
               <b-carousel
                 id="carousel-fade"
                 style="text-shadow: 0px 0px 2px #000"
@@ -43,11 +45,13 @@
                   :img-src="imagen"
                 />
               </b-carousel>
+              </parallax-element>
+              </parallax-container>
             </div>
           </div>
         </div>
         <div v-else>
-          <div class="row">
+          <div class="row roww">
             <!-- VIDEO IZQUIERDA -->
             <div class="col-12 col-md-6" v-if="tradicion.video">
               <div class="embed-responsive embed-responsive-16by9">
@@ -56,6 +60,8 @@
             </div>
             <!-- SLIDER  izquierda-->
             <div v-else class="col-12 col-md-6">
+              <parallax-container class="horizontal-card centered-card">
+              <parallax-element class="background-image" :parallaxStrength="-10" :type="'depth'">
               <b-carousel
                 id="carousel-fade"
                 style="text-shadow: 0px 0px 0px #000"
@@ -70,12 +76,14 @@
                   :img-src="imagen"
                 />
               </b-carousel>
+              </parallax-element>
+              </parallax-container>
             </div>
             <!-- Conteido texto -->
             <div class="col-12 col-md-6">
-              <h2 class="text-center">
+              <h3 class="text-center">
                 {{ tradicion.nombre }}
-              </h2>
+              </h3>
               <p v-for="(parrafo,index) in tradicion.contenido" :key="index" align="justify">
                 {{ parrafo }}
               </p>
@@ -100,3 +108,17 @@ export default {
   }
 }
 </script>
+<style>
+  h2, h3, p {
+    color:white
+  }
+  hr, .hrcolor {
+   height: 1px;
+   border: 0;
+   color: #FFF;
+   background-color:#FFF;
+}
+.roww{
+  background-color:rgba(0,0,0,0.5);
+}
+</style>

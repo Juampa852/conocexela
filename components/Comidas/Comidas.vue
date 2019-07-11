@@ -89,7 +89,7 @@ export default {
     height: 250px;
   }
   body{
-    background-image: url(/fondo3.jpg);
+    background-image: url(/fondo5.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
