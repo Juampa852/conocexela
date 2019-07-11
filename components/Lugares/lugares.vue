@@ -37,7 +37,7 @@
             </div>
             <!-- UBICACIÓN -->
             <div id="ubicacion" class="col-12">
-              <b-button v-b-toggle="'collapse-'+i" variant="outline-danger" pill class="offset-3 offset-sm-4 offset-md-2 llegar">Ver Ubicación</b-button>
+              <b-button v-b-toggle="'collapse-'+i" variant="outline-light" pill class="offset-3 offset-sm-4 offset-md-2 llegar">Ver Ubicación</b-button>
               <b-collapse :id="'collapse-'+i" class="mt-2 col-12">
                 <b-card>
                   <gmap-map :center="lugares[(numero*perPage)-perPage-1+i].coordenada" :map-type-id="mapTypeId" :zoom="18">
@@ -85,7 +85,7 @@
             </div>
             <!-- UBICACIÓN -->
             <div id="ubicacion" class="col-12">
-              <b-button v-b-toggle="'collapse-'+i" variant="outline-danger" pill class="offset-3 offset-sm-4 offset-md-8 llegar">Ver Ubicación</b-button>
+              <b-button v-b-toggle="'collapse-'+i" variant="outline-light" pill class="offset-3 offset-sm-4 offset-md-8 llegar">Ver Ubicación</b-button>
               <b-collapse :id="'collapse-'+i" class="mt-2 col-12">
                 <b-card>
                   <gmap-map :center="lugares[(numero*perPage)-perPage-1+i].coordenada" :map-type-id="mapTypeId" :zoom="18">
@@ -153,8 +153,9 @@ b-carousel {
 a.llegar, a.llegar:visited{
   border-style: solid;
   color: #f70a0a;
-  border-color: #f70a0a;
-  outline-color: #f70a0a;
+  border-color: #ffffff;
+  outline-color: #ffffff;
+  font-style: bold;
 }
 
 a.llegar:hover {
