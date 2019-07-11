@@ -11,7 +11,7 @@
     <div class="text-center">
       <div v-for="(tradicion, index) in municipios[id].tradiciones" :key="index">
         <div v-if="index % 2 === 0">
-          <div class="row roww">
+          <div class="row roww" data-aos="zoom-in-left" data-aos-duration="4000000">
             <!-- Conteido texto -->
             <div class="col-12 col-md-6">
               <h3 class="text-center">
@@ -51,7 +51,7 @@
           </div>
         </div>
         <div v-else>
-          <div class="row roww">
+          <div class="row roww" data-aos="zoom-in-right" data-aos-duration="4000000">
             <!-- VIDEO IZQUIERDA -->
             <div class="col-12 col-md-6" v-if="tradicion.video">
               <div class="embed-responsive embed-responsive-16by9">
