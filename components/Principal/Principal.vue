@@ -109,76 +109,76 @@
         @sliding-end="onSlideEnd"
       >
       <b-carousel-slide class="Field_slide_small" img-src="/main_images/Slider/_DSC0840.JPG">
-          <h1>Nuestra gente y sus tradiciones...</h1>
+          <h1 class="small-h1">Nuestra gente y sus tradiciones...</h1>
         </b-carousel-slide>
 
         <b-carousel-slide
           class="Field_slide_small"
           img-src="https://aprende.guatemala.com/wp-content/uploads/2017/08/Xela.jpg"
         >
-          <h1>¡Arquitectura única!</h1>
+          <h1 class="small-h1">¡Arquitectura única!</h1>
         </b-carousel-slide>
 
         <b-carousel-slide class="Field_slide_small" img-src="/main_images/Slider/CerroelBaul.jpg">
-          <h1>¡Paisajes siniguales!</h1>
+          <h1 class="small-h1">¡Paisajes siniguales!</h1>
         </b-carousel-slide>
 
         <b-carousel-slide class="Field_slide_small" img-src="/main_images/Slider/xela.jpg">
-          <h1>¡Vida Nocturna!</h1>
+          <h1 class="small-h1">¡Vida Nocturna!</h1>
         </b-carousel-slide>
 
         <b-carousel-slide class="Field_slide_small" img-src="/main_images/Slider/catedral.jpeg">
-          <h1>¡Centro de Fe!</h1>
+          <h1 class="small-h1">¡Centro de Fe!</h1>
         </b-carousel-slide>
         <b-carousel-slide class="Field_slide_small" img-src="/main_images/Slider/comidas.jpg">
-          <h1>¡Encántate por las Shecas!</h1>
+          <h1 class="small-h1">¡Encántate por las Shecas!</h1>
         </b-carousel-slide>
 
         <b-carousel-slide class="Field_slide_small" img-src="/main_images/Slider/dulces.jpg">
-          <h1>¡Endúlzate la vida con sus dulces!</h1>
+          <h1 class="small-h1">¡Endúlzate la vida con sus dulces!</h1>
         </b-carousel-slide>
         <b-carousel-slide class="Field_slide_small" img-src="/main_images/Slider/Eloteslocos.jpg">
-          <h1>¡Alócate por los elotes!</h1>
+          <h1 class="small-h1">¡Alócate por los elotes!</h1>
         </b-carousel-slide>
 
         <b-carousel-slide class="Field_slide_small" img-src="/main_images/Slider/fuentes.jpg">
-          <h1>¡Relájate con sus aguas termales!</h1>
+          <h1 class="small-h1">¡Relájate con sus aguas termales!</h1>
         </b-carousel-slide>
 
         <b-carousel-slide class="Field_slide_small" img-src="/main_images/Slider/Lagunachicabal.jpg">
-          <h1>¡Vive el misticismo del Volcán-Laguna!</h1>
+          <h1 class="small-h1">¡Vive el misticismo del Volcán-Laguna!</h1>
         </b-carousel-slide>
 
         <b-carousel-slide class="Field_slide_small" img-src="/main_images/Slider/parque.jpg">
-          <h1>¡Llénate de paz en las tardes quetzaltecas!</h1>
+          <h1 class="small-h1">¡Llénate de paz en las tardes quetzaltecas!</h1>
         </b-carousel-slide>
 
         <b-carousel-slide class="Field_slide_small" img-src="/main_images/Slider/procesion.jpg">
-          <h1>Encuéntrate de nuevo...</h1>
+          <h1 class="small-h1">Encuéntrate de nuevo...</h1>
         </b-carousel-slide>
 
         <b-carousel-slide class="Field_slide_small" img-src="/main_images/Slider/volcano.jpg">
-          <h1>Valles y vistas increíbles...</h1>
+          <h1 class="small-h1">Valles y vistas increíbles...</h1>
         </b-carousel-slide>
 
         <b-carousel-slide class="Field_slide_small" img-src="/main_images/Slider/Quetzaltenango.jpg">
-          <h1>Por si te quedas con hambre...</h1>
+          <h1 class="small-h1">Por si te quedas con hambre...</h1>
         </b-carousel-slide>
 
         <b-carousel-slide class="Field_slide_small" img-src="/main_images/Slider/Santa.jpg">
-          <h1>Los vigilantes de Quetzaltenango...</h1>
+          <h1 class="small-h1">Los vigilantes de Quetzaltenango...</h1>
         </b-carousel-slide>
 
         <b-carousel-slide class="Field_slide_small" img-src="/main_images/Slider/siembra.jpg">
-          <h1>Campos fértiles y bondadosos...</h1>
+          <h1 class="small-h1">Campos fértiles y bondadosos...</h1>
         </b-carousel-slide>
 
         <b-carousel-slide class="Field_slide_small" img-src="/main_images/Slider/teatro.jpg">
-          <h1>¡La Cuna de la Cultura Hispanoamericana!</h1>
+          <h1 class="small-h1">¡La Cuna de la Cultura Hispanoamericana!</h1>
         </b-carousel-slide>
 
         <b-carousel-slide class="Field_slide_small" img-src="/main_images/Slider/volcan2.jpg">
-          <h1>La cima del vigilante dormido eternamente...</h1>
+          <h1 class="small-h1">La cima del vigilante dormido eternamente...</h1>
         </b-carousel-slide>
       </b-carousel>
       </div>
@@ -269,6 +269,9 @@ b-carousel {
 }
 h1{
   color: white;
+}
+.small-h1 {
+  font-size: 1.25rem !important;
 }
 .Field .Field__slide {
   height: 85vh;
