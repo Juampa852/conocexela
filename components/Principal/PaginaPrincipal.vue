@@ -4,8 +4,8 @@
       <!--Carousel-->
       <b-carousel
         id="carousel-1"
-        class="Field__carousel"
         v-model="slide"
+        class="Field__carousel"
         :interval="3000"
         controls
         indicators
@@ -16,9 +16,9 @@
         @sliding-start="onSlideStart"
         @sliding-end="onSlideEnd"
       >
-      <b-carousel-slide class="Field__slide" img-src='/main_images/Slider/_DSC0840.JPG'>
+        <b-carousel-slide class="Field__slide" img-src="/main_images/Slider/_DSC0840.JPG">
           <h1>Nuestra gente y sus tradiciones...</h1>
-      </b-carousel-slide>
+        </b-carousel-slide>
 
         <b-carousel-slide
           class="Field__slide"
@@ -95,11 +95,11 @@
       <div class="row Content_Field" data-aos="zoom-in-left" data-aos-duration="4000000">
         <div class="col-12 col-md-2">
           <parallax-container class="horizontal-card centered-card">
-            <parallax-element class="text-container" :parallaxStrength="10" :type="'depth'">
+            <parallax-element class="text-container" :parallax-strength="10" :type="'depth'">
               <h2>'rotation'</h2>
             </parallax-element>
-            <parallax-element class="background-image" :parallaxStrength="-10" :type="'depth'">
-              <img src="/main_images/Principal/asdf" width="300vh" height="200vh" />
+            <parallax-element class="background-image" :parallax-strength="-10" :type="'depth'">
+              <img src="/main_images/Principal/asdf" width="300vh" height="200vh">
             </parallax-element>
           </parallax-container>
         </div>
@@ -136,7 +136,7 @@
               src="/main_images/Principal/templo.jpg"
               width="300vh"
               height="200vh"
-            />
+            >
           </div>
         </div>
       </div>
@@ -148,7 +148,7 @@
             src="/main_images/Principal/conquista.jpg"
             width="300vh"
             height="200vh"
-          />
+          >
         </div>
         <div class="col-12 col-md-10">
           <p class="paragraph" align="justify">
@@ -178,14 +178,14 @@
             src="/main_images/Principal/domingo.jpeg"
             width="300vh"
             height="200vh"
-          />
+          >
         </div>
       </div>
 
       <div class="row Content_Field" data-aos="zoom-in-left" data-aos-duration="4000000">
         <div class="col-12 col-md-2">
           <figure>
-            <img class="image" src="/main_images/Principal/arco.jpg" width="300vh" height="200vh" />
+            <img class="image" src="/main_images/Principal/arco.jpg" width="300vh" height="200vh">
           </figure>
         </div>
         <div class="col-12 col-md-10">
@@ -216,13 +216,13 @@
             src="/main_images/Principal/pacop.jpg"
             width="300vh"
             height="200vh"
-          />
+          >
         </div>
       </div>
 
       <div class="row Content_Field" data-aos="zoom-in-left" data-aos-duration="4000000">
         <div class="col-12 col-md-2">
-          <img class="image" src="/main_images/Principal/efrain.jpg" width="300vh" height="200vh" />
+          <img class="image" src="/main_images/Principal/efrain.jpg" width="300vh" height="200vh">
         </div>
         <div class="col-12 col-md-10">
           <p class="paragraph" align="justify">
@@ -251,13 +251,13 @@
             src="/main_images/Principal/xelaju.jpg"
             width="300vh"
             height="200vh"
-          />
+          >
         </div>
       </div>
 
       <div class="row Content_Field" data-aos="zoom-in-left" data-aos-duration="4000000">
         <div class="col-12 col-md-2">
-          <img class="image" src="/main_images/Principal/jacobo.jpg" width="300vh" height="200vh" />
+          <img class="image" src="/main_images/Principal/jacobo.jpg" width="300vh" height="200vh">
         </div>
         <div class="col-12 col-md-10">
           <p class="paragraph" align="justify">
@@ -285,13 +285,13 @@
             src="/main_images/Principal/complejo.jpg"
             width="300vh"
             height="200vh"
-          />
+          >
         </div>
       </div>
 
       <div class="row Content_Field" data-aos="zoom-in-left" data-aos-duration="4000000">
         <div class="col-12 col-md-2">
-          <img class="image" src="/main_images/Principal/rr.jpg" width="300vh" height="200vh" />
+          <img class="image" src="/main_images/Principal/rr.jpg" width="300vh" height="200vh">
         </div>
         <div class="col-12 col-md-10">
           <p class="paragraph" align="justify">

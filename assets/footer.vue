@@ -16,13 +16,25 @@
         <!-- Grid column -->
         <div class="col-md-4 mx-auto text-md-right">
           <!-- Links -->
-          <h6 id="contacto" class="text-uppercase-cx font-weight-bold-cx">Contacto</h6>
+          <h6 id="contacto" class="text-uppercase-cx font-weight-bold-cx">
+            Contacto
+          </h6>
           <div class="container text-center">
-            <h6 class="font-small-sub-cx mb-4 footer-text">E-mail: </h6>
-            <h6 class="font-small-cx mb-4 footer-text">conoce.xela19@gmail.com</h6>
-            <h6 class="font-small-sub-cx mb-4 footer-text">Teléfono: </h6>
-            <h6 class="font-small-cx mb-4 footer-text">+502 4196-6767</h6>
-            <h6 class="font-small2-cx mb-4 footer-text">Hecho con <span style="color: #e25555;">&hearts;</span> en Xela, por DevTeam</h6>
+            <h6 class="font-small-sub-cx mb-4 footer-text">
+              E-mail:
+            </h6>
+            <h6 class="font-small-cx mb-4 footer-text">
+              conoce.xela19@gmail.com
+            </h6>
+            <h6 class="font-small-sub-cx mb-4 footer-text">
+              Teléfono:
+            </h6>
+            <h6 class="font-small-cx mb-4 footer-text">
+              +502 4196-6767
+            </h6>
+            <h6 class="font-small2-cx mb-4 footer-text">
+              Hecho con <span style="color: #e25555;">&hearts;</span> en Xela, por DevTeam
+            </h6>
           </div>
         </div>
         <!-- Grid column -->

@@ -1,4 +1,11 @@
 export default {
+  /* vue: {
+    config: {
+      productionTip: true,
+      devtools: true,
+      silent: false
+    }
+  }, */
   mode: 'universal',
   /*
    ** Headers of the page
@@ -40,7 +47,8 @@ export default {
   */
   plugins: [
     { src: '~/plugins/aos', ssr: false },
-    { src: '~/plugins/vue2-google-maps.js', ssr: false }
+    { src: '~/plugins/vue2-google-maps.js', ssr: false },
+    { src: '~/plugins/parallax.js', ssr: false }
   ],
   /*
    ** Nuxt.js modules
@@ -51,10 +59,21 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/eslint-module',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots'
   ],
+  robots: {
+    UserAgent: '*',
+    Allow: [
+      '/',
+      '/lugares',
+      '/cultura',
+      '/comida'
+    ],
+    Sitemap: 'http://conocexela.info/sitemap.xml'
+  },
   sitemap: {
-    hostname: 'https://conocexela.info',
+    hostname: 'http://conocexela.info',
     path: '/sitemap.xml',
     generate: false,
     defaults: {
@@ -83,10 +102,6 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {
-    },
-    vendor: [
-      'aos',
-      'vue2-google-maps'
-    ]
+    }
   }
 }

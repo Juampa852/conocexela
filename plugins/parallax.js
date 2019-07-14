@@ -1,11 +1,3 @@
-$(document).ready(function(){
-    $(window).scroll(function(){
-        var barra = $(window).scrollTop();
-        var posicion =  (barra * 0.50);
-    
-        $('body').css({
-            'background-position': '0 -' + posicion + 'px'
-        });
-
-    });
-})
+import Vue from 'vue'
+import VueMouseParallax from 'vue-mouse-parallax'
+Vue.use(VueMouseParallax)

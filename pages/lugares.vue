@@ -4,8 +4,8 @@
     <div class="text-center">
       <br>
       <h1>Lugares Turísticos</h1>
-      <br />
-      <hr />
+      <br>
+      <hr>
     </div>
     <b-pagination
       v-model="currentPage"
@@ -14,7 +14,7 @@
       :per-page="perPage"
       prev-text="Anterior"
       next-text="Siguiente"
-    ></b-pagination>
+    />
     <Lugares :numero="currentPage" />
     <b-pagination
       v-model="currentPage"
@@ -23,18 +23,15 @@
       :per-page="perPage"
       prev-text="Anterior"
       next-text="Siguiente"
-    ></b-pagination>
+    />
     <Footer />
   </section>
 </template>
 
 <script>
-import Vue from 'vue'
-import VueMouseParallax from 'vue-mouse-parallax'
 import Lugares from '~/components/Lugares/lugares.vue'
 import Header from '~/assets/header'
 import Footer from '~/assets/footer.vue'
-Vue.use(VueMouseParallax)
 export default {
   components: {
     Lugares,

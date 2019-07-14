@@ -7,9 +7,9 @@
         </div>
       </b-navbar-brand>
 
-      <b-navbar-toggle target="nav_collapse"/>
+      <b-navbar-toggle target="nav_collapse" />
 
-      <b-collapse is-nav id="nav_collapse">
+      <b-collapse id="nav_collapse" is-nav>
         <div style="width: 100%; height:100%; text-align: center">
           <a href="/">
             <img
@@ -23,10 +23,18 @@
 
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <b-nav-item href="/">Inicio</b-nav-item>
-          <b-nav-item href="/lugares">Lugares</b-nav-item>
-          <b-nav-item href="/cultura">Cultura</b-nav-item>
-          <b-nav-item href="/comida">Comida</b-nav-item>
+          <b-nav-item href="/">
+            Inicio
+          </b-nav-item>
+          <b-nav-item href="/lugares">
+            Lugares
+          </b-nav-item>
+          <b-nav-item href="/cultura">
+            Cultura
+          </b-nav-item>
+          <b-nav-item href="/comida">
+            Comida
+          </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>

@@ -5,27 +5,25 @@
         <h1>Cultura</h1>
         <hr>
       </div>
-       <b-pagination
-        align="center"
+      <b-pagination
         v-model="actual"
+        align="center"
         :total-rows="total"
         :per-page="porPagina"
         prev-text="Anterior"
         next-text="Siguiente"
-      >
-      </b-pagination>
-      <div v-for="i in porPagina" :key=i>
-        <municipio :id=i-1+(actual-1)*porPagina></municipio>
+      />
+      <div v-for="i in porPagina" :key="i">
+        <municipio :id="i-1+(actual-1)*porPagina" />
       </div>
       <b-pagination
-        align="center"
         v-model="actual"
+        align="center"
         :total-rows="total"
         :per-page="porPagina"
         prev-text="Anterior"
         next-text="Siguiente"
-      >
-      </b-pagination>
+      />
     </div>
   </body>
 </template>

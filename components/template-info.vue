@@ -17,35 +17,35 @@
               <h3 class="text-center">
                 {{ tradicion.nombre }}
               </h3>
-              <p v-for="(parrafo,index) in tradicion.contenido" :key="index" align="justify">
+              <p v-for="(parrafo,index1) in tradicion.contenido" :key="index1" align="justify">
                 {{ parrafo }}
               </p>
             </div>
             <!-- VIDEO DERECHA -->
-            <div class="col-12 col-md-6" v-if="tradicion.video">
+            <div v-if="tradicion.video" class="col-12 col-md-6">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" :src=tradicion.media allowfullscreen></iframe>
+                <iframe class="embed-responsive-item" :src="tradicion.media" allowfullscreen />
               </div>
             </div>
             <!-- SLIDER  DERECHA-->
             <div v-else class="col-12 col-md-6">
               <parallax-container class="horizontal-card centered-card">
-              <parallax-element class="background-image" :parallaxStrength="-10" :type="'depth'">
-              <b-carousel
-                id="carousel-fade"
-                style="text-shadow: 0px 0px 2px #000"
-                fade
-                indicators
-                img-width="300"
-                img-height="300"
-              >
-                <b-carousel-slide
-                  v-for="imagen in tradicion.media"
-                  :key="imagen"
-                  :img-src="imagen"
-                />
-              </b-carousel>
-              </parallax-element>
+                <parallax-element class="background-image" :parallax-strength="-10" :type="'depth'">
+                  <b-carousel
+                    id="carousel-fade"
+                    style="text-shadow: 0px 0px 2px #000"
+                    fade
+                    indicators
+                    img-width="300"
+                    img-height="300"
+                  >
+                    <b-carousel-slide
+                      v-for="imagen in tradicion.media"
+                      :key="imagen"
+                      :img-src="imagen"
+                    />
+                  </b-carousel>
+                </parallax-element>
               </parallax-container>
             </div>
           </div>
@@ -53,30 +53,30 @@
         <div v-else>
           <div class="row roww" data-aos="zoom-in-right" data-aos-duration="4000000">
             <!-- VIDEO IZQUIERDA -->
-            <div class="col-12 col-md-6" v-if="tradicion.video">
+            <div v-if="tradicion.video" class="col-12 col-md-6">
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" :src=tradicion.media allowfullscreen></iframe>
+                <iframe class="embed-responsive-item" :src="tradicion.media" allowfullscreen />
               </div>
             </div>
             <!-- SLIDER  izquierda-->
             <div v-else class="col-12 col-md-6">
               <parallax-container class="horizontal-card centered-card">
-              <parallax-element class="background-image" :parallaxStrength="-10" :type="'depth'">
-              <b-carousel
-                id="carousel-fade"
-                style="text-shadow: 0px 0px 0px #000"
-                fade
-                indicators
-                img-width="300"
-                img-height="300"
-              >
-                <b-carousel-slide
-                  v-for="imagen in tradicion.media"
-                  :key="imagen"
-                  :img-src="imagen"
-                />
-              </b-carousel>
-              </parallax-element>
+                <parallax-element class="background-image" :parallax-strength="-10" :type="'depth'">
+                  <b-carousel
+                    id="carousel-fade"
+                    style="text-shadow: 0px 0px 0px #000"
+                    fade
+                    indicators
+                    img-width="300"
+                    img-height="300"
+                  >
+                    <b-carousel-slide
+                      v-for="imagen in tradicion.media"
+                      :key="imagen"
+                      :img-src="imagen"
+                    />
+                  </b-carousel>
+                </parallax-element>
               </parallax-container>
             </div>
             <!-- Conteido texto -->
@@ -84,7 +84,7 @@
               <h3 class="text-center">
                 {{ tradicion.nombre }}
               </h3>
-              <p v-for="(parrafo,index) in tradicion.contenido" :key="index" align="justify">
+              <p v-for="(parrafo,index3) in tradicion.contenido" :key="index3" align="justify">
                 {{ parrafo }}
               </p>
             </div>
@@ -99,6 +99,7 @@
 import JSONcultura from './Cultura/cultura-muni.json'
 export default {
   props: {
+    // eslint-disable-next-line
     id: Number
   },
   data() {

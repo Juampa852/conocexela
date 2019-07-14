@@ -1,7 +1,7 @@
 <template>
   <body>
     <div id="divlugares" class="container">
-      <br />
+      <br>
       <!-- CICLO PARA MOSTRAR TODOS LOS LUGARES -->
       <div v-for="i in perPage" :key="i">
         <!-- ALINEADO A LA IZQUIERDA -->
@@ -9,35 +9,41 @@
           <div class="row " data-aos="zoom-in-left" data-aos-duration="4000000" style="background: rgba(0,0,0,0.5);">
             <!-- TEXTO -->
             <div class="col-12 col-md-6">
-              <h2 class="text-center">{{ ((numero-1)*perPage) + i }}. {{ lugares[(numero*perPage)-perPage-1+i].nombre }}</h2>
-              <p align="justify">{{ lugares[(numero*perPage)-perPage-1+i].descripcion }}</p>
+              <h2 class="text-center">
+                {{ ((numero-1)*perPage) + i }}. {{ lugares[(numero*perPage)-perPage-1+i].nombre }}
+              </h2>
+              <p align="justify">
+                {{ lugares[(numero*perPage)-perPage-1+i].descripcion }}
+              </p>
             </div>
             <!-- SLIDER  -->
             <div class="col-12 col-md-6">
               <parallax-container class="horizontal-card centered-card">
-              <parallax-element class="background-image" :parallaxStrength="-10" :type="'translation'">
-              <b-carousel
-                id="carousel-fade"
-                style="text-shadow: 0px 0px 2px #000"
-                fade
-                indicators
-                controls
-                img-width
-                img-height="300px"
-              >
-                <b-carousel-slide
-                  v-for="imagen in lugares[(numero*perPage)-perPage-1+i].imagenes"
-                  :key="imagen"
-                  :img-src="imagen"
-                  class="imagen"
-                />
-              </b-carousel>
-              </parallax-element>
+                <parallax-element class="background-image" :parallax-strength="-10" :type="'translation'">
+                  <b-carousel
+                    id="carousel-fade"
+                    style="text-shadow: 0px 0px 2px #000"
+                    fade
+                    indicators
+                    controls
+                    img-width
+                    img-height="300px"
+                  >
+                    <b-carousel-slide
+                      v-for="imagen in lugares[(numero*perPage)-perPage-1+i].imagenes"
+                      :key="imagen"
+                      :img-src="imagen"
+                      class="imagen"
+                    />
+                  </b-carousel>
+                </parallax-element>
               </parallax-container>
             </div>
             <!-- UBICACIÓN -->
             <div id="ubicacion" class="col-12">
-              <b-button v-b-toggle="'collapse-'+i" variant="outline-light" pill class="offset-3 offset-sm-4 offset-md-2 llegar">Ver Ubicación</b-button>
+              <b-button v-b-toggle="'collapse-'+i" variant="outline-light" pill class="offset-3 offset-sm-4 offset-md-2 llegar">
+                Ver Ubicación
+              </b-button>
               <b-collapse :id="'collapse-'+i" class="mt-2 col-12">
                 <b-card>
                   <gmap-map :center="lugares[(numero*perPage)-perPage-1+i].coordenada" :map-type-id="mapTypeId" :zoom="18">
@@ -49,8 +55,8 @@
               </b-collapse>
             </div>
           </div>
-          <br />
-          <br />
+          <br>
+          <br>
         </div>
         <!-- ALINEADO A LA DERECHA -->
         <div v-else>
@@ -58,34 +64,40 @@
             <!-- SLIDER  -->
             <div class="col-12 col-md-6">
               <parallax-container class="horizontal-card centered-card">
-              <parallax-element class="background-image" :parallaxStrength="-10" :type="'translation'">
-              <b-carousel
-                id="carousel-fade"
-                style="text-shadow: 0px 0px 2px #000"
-                fade
-                indicators
-                controls
-                img-width
-                img-height="300px"
-              >
-                <b-carousel-slide
-                  v-for="imagen in lugares[(numero*perPage)-perPage-1+i].imagenes"
-                  :key="imagen"
-                  :img-src="imagen"
-                  class="imagen"
-                />
-              </b-carousel>
-              </parallax-element>
+                <parallax-element class="background-image" :parallax-strength="-10" :type="'translation'">
+                  <b-carousel
+                    id="carousel-fade"
+                    style="text-shadow: 0px 0px 2px #000"
+                    fade
+                    indicators
+                    controls
+                    img-width
+                    img-height="300px"
+                  >
+                    <b-carousel-slide
+                      v-for="imagen in lugares[(numero*perPage)-perPage-1+i].imagenes"
+                      :key="imagen"
+                      :img-src="imagen"
+                      class="imagen"
+                    />
+                  </b-carousel>
+                </parallax-element>
               </parallax-container>
             </div>
             <!-- TEXTO -->
             <div class="col-12 col-md-6">
-              <h2 class="text-center">{{ ((numero-1)*perPage) + i }}. {{ lugares[(numero*perPage)-perPage-1+i].nombre }}</h2>
-              <p align="justify">{{ lugares[(numero*perPage)-perPage-1+i].descripcion }}</p>
+              <h2 class="text-center">
+                {{ ((numero-1)*perPage) + i }}. {{ lugares[(numero*perPage)-perPage-1+i].nombre }}
+              </h2>
+              <p align="justify">
+                {{ lugares[(numero*perPage)-perPage-1+i].descripcion }}
+              </p>
             </div>
             <!-- UBICACIÓN -->
             <div id="ubicacion" class="col-12">
-              <b-button v-b-toggle="'collapse-'+i" variant="outline-light" pill class="offset-3 offset-sm-4 offset-md-8 llegar">Ver Ubicación</b-button>
+              <b-button v-b-toggle="'collapse-'+i" variant="outline-light" pill class="offset-3 offset-sm-4 offset-md-8 llegar">
+                Ver Ubicación
+              </b-button>
               <b-collapse :id="'collapse-'+i" class="mt-2 col-12">
                 <b-card>
                   <gmap-map :center="lugares[(numero*perPage)-perPage-1+i].coordenada" :map-type-id="mapTypeId" :zoom="18">
@@ -97,13 +109,13 @@
               </b-collapse>
             </div>
           </div>
-          <br />
-          <br />
+          <br>
+          <br>
         </div>
       </div>
-      <br />
-      <hr />
-      <br />
+      <br>
+      <hr>
+      <br>
     </div>
   </body>
 </template>
@@ -113,6 +125,7 @@ import JSONlugares from './lugares.json'
 
 export default {
   props: {
+    // eslint-disable-next-line
     numero: Number
   },
   data() {
@@ -126,10 +139,6 @@ export default {
 </script>
 
 <style>
-#divlugares {
-  /* background-color: #f4f6f8; */
-}
-
 h1, h2, p{
   color: white;
 }
