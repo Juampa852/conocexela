@@ -2,7 +2,7 @@
   <header style="height: 97px">
     <b-navbar toggleable="lg" fixed="top" style="background-color: #142572">
       <b-navbar-brand href="https://www.munixela.gob.gt/" target="_blank">
-        <div style="width: 105px; height:100%">
+        <div style="width: 105px;">
           <img src="/logo.png" style="padding: 0; margin-left: 30%; margin-top: 0px;" width="65%">
         </div>
       </b-navbar-brand>

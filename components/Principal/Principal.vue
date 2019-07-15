@@ -18,7 +18,7 @@
           @sliding-start="onSlideStart"
           @sliding-end="onSlideEnd"
         >
-          <b-carousel-slide class="Field__slide" img-src="/main_images/Slider/_DSC0840.JPG">
+          <b-carousel-slide class="Field__slide" img-src="/main_images/Slider/_DSC0840.jpg">
             <h2>Nuestra gente y sus tradiciones...</h2>
           </b-carousel-slide>
 
@@ -108,7 +108,7 @@
           @sliding-start="onSlideStart"
           @sliding-end="onSlideEnd"
         >
-          <b-carousel-slide class="Field_slide_small" img-src="/main_images/Slider/_DSC0840.JPG">
+          <b-carousel-slide class="Field_slide_small" img-src="/main_images/Slider/_DSC0840.jpg">
             <h2 class="small-h2">
               Nuestra gente y sus tradiciones...
             </h2>

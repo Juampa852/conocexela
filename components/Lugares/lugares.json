@@ -30,10 +30,10 @@
     },
     {
         "nombre": "Teatro Municipal",
-        "descripcion": "Este teatro pasó por varias restauraciones. Su diseño original es obra del arquitecto Durini, quien logra un estilo del neorrenacimiento francés debido a que hizo uso de elementos decorativos típicos de la cultura francesa. El entorno del teatro ha sido adornado con varios monumentos a lo largo del tiempo, de ellos el que más se destaca es la estatua de Artemisa, personaje de la mitología griega, diosa de la naturaleza, las cosechas y la caza.",        
+        "descripcion": "Este teatro pasó por varias restauraciones. Su diseño original es obra del arquitecto Durini, quien logra un estilo del neorrenacimiento francés debido a que hizo uso de elementos decorativos típicos de la cultura francesa. El entorno del teatro ha sido adornado con varios monumentos a lo largo del tiempo, de ellos el que más se destaca es la estatua de Artemisa, personaje de la mitología griega, diosa de la naturaleza, las cosechas y la caza.",
         "imagenes": ["/imagenes-lugares/Teatro1.jpg",
             "/imagenes-lugares/Teatro2.jpg",
-            "/imagenes-lugares/Teatro3.jpg"], 
+            "/imagenes-lugares/Teatro3.jpg"],
         "direccion": "https://goo.gl/maps/rHFK1QSV8xbHyiHeA",
         "coordenada": { "lat": 14.837840, "lng": -91.518931}
     },
@@ -49,9 +49,9 @@
     {
         "nombre": "Templo a Minerva",
         "descripcion": "Su construcción se inició en 1,917 por órdenes del Presidente Manuel Estrada Cabrera.  El presidente Cabrera pensó que debía estimular entre los niños y jóvenes el amor a la sabiduría y el estudio. Por eso, mandó a construir en las cabeceras departamentales y en los principales municipios del país réplicas del Partenón a las que llamó Templos de Minerva. Cada año se realizaba premiación de los mejores alumnos de escuelas y colegios y se hacían las celebraciones culturales y deportivas. Estas fiestas se llamaron Minervalias y se elegía en ellas a una joven estudiosa y linda como 'diosa Minerva'. Actualmente la mayoría de templos ha desaparecido y es el de Quetzaltenango el que aún se conserva en buen estado.",
-        "imagenes": ["/imagenes-lugares/TemploMinerva1.PNG",
-            "/imagenes-lugares/TemploMinerva2.PNG",
-            "/imagenes-lugares/TemploMinerva3.PNG"],
+        "imagenes": ["/imagenes-lugares/TemploMinerva1.png",
+            "/imagenes-lugares/TemploMinerva2.png",
+            "/imagenes-lugares/TemploMinerva3.png"],
         "direccion": "https://goo.gl/maps/WnNpMHbVqJFJTpQw6",
         "coordenada": { "lat": 14.846127, "lng": -91.533602}
     },
@@ -116,7 +116,7 @@
             "/imagenes-lugares/Chicabal2.jpg",
             "/imagenes-lugares/Chicabal3.jpg"],
         "direccion": "https://goo.gl/maps/MwTjCFC6MQgBvmdy8",
-        "coordenada": { "lat": 14.791631, "lng": -91.655953}    
+        "coordenada": { "lat": 14.791631, "lng": -91.655953}
     },
     {
         "nombre": "Las Cumbres ECO-Sauna - Zunil",
